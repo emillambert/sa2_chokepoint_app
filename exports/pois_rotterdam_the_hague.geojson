@@ -6,12 +6,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.4093799,
-          51.9592598
+          4.4527599,
+          51.9667922
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_0",
+        "id": "poi_ambush_r_shortest_20_cluster_0",
+        "type": "ambush_location",
+        "related_route": "r_shortest",
+        "related_chokepoint": null,
+        "description": "Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment. (Represents cluster of 4 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4241184,
+          51.9540581
+        ]
+      },
+      "properties": {
+        "id": "poi_ambush_r_shortest_94",
         "type": "ambush_location",
         "related_route": "r_shortest",
         "related_chokepoint": null,
@@ -23,14 +40,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3955395,
-          51.9814384
+          4.4538348,
+          51.9702547
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_1",
+        "id": "poi_ambush_r_logical_51",
         "type": "ambush_location",
-        "related_route": "r_shortest",
+        "related_route": "r_logical",
         "related_chokepoint": null,
         "description": "Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment."
       }
@@ -40,16 +57,50 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3911776,
-          51.9916356
+          4.4514902,
+          51.9732704
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_3",
+        "id": "poi_ambush_r_logical_55",
         "type": "ambush_location",
-        "related_route": "r_shortest",
+        "related_route": "r_logical",
         "related_chokepoint": null,
         "description": "Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4584702,
+          51.9663865
+        ]
+      },
+      "properties": {
+        "id": "poi_ambush_r_safest_68_cluster_4",
+        "type": "ambush_location",
+        "related_route": "r_safest",
+        "related_chokepoint": null,
+        "description": "Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4552309,
+          51.9687196
+        ]
+      },
+      "properties": {
+        "id": "poi_surv_r_shortest_41_cluster_0",
+        "type": "surveillance_point",
+        "related_route": "r_shortest",
+        "related_chokepoint": null,
+        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade. (Represents cluster of 4 nearby locations within 150m)"
       }
     },
     {
@@ -62,215 +113,11 @@
         ]
       },
       "properties": {
-        "id": "poi_surv_r_shortest_14",
+        "id": "poi_surv_r_shortest_244_cluster_1",
         "type": "surveillance_point",
         "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.349438,
-          52.047636
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_15",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3491733,
-          52.0476769
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_16",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4172583,
-          51.9506119
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_2",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4154324,
-          51.9497266
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_3",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4148941,
-          51.949706
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_6",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4148941,
-          51.949706
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_6",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4129109,
-          51.9484754
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_7",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4020913,
-          51.9551985
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_8",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.455695,
-          51.9675774
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_6",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4592923,
-          51.9668085
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_17",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.461114,
-          51.9712006
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_18",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4217456,
-          51.9522205
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_2",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade."
+        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -283,11 +130,11 @@
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_8",
+        "id": "poi_surv_r_safest_40_cluster_2",
         "type": "surveillance_point",
         "related_route": "r_safest",
         "related_chokepoint": null,
-        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade."
+        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade. (Represents cluster of 3 nearby locations within 150m)"
       }
     },
     {
@@ -295,32 +142,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.4578363,
-          51.9663464
+          4.4351556,
+          51.9578975
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_9",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.430204,
-          51.9561308
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_4593416919",
+        "id": "poi_obs_cp_4593416910",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_4593416919",
+        "related_chokepoint": "cp_4593416910",
         "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
       }
     },
@@ -329,16 +159,118 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.430204,
-          51.9561308
+          4.4410809,
+          51.9602748
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_4593416919",
-        "type": "enemy_firing_point",
+        "id": "poi_obs_cp_11003276648_cluster_1_cluster_1",
+        "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_4593416919",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "related_chokepoint": "cp_11003276648_cluster_1",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4439375,
+          51.9614833
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_10969424505_cluster_3",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_10969424505_cluster_3",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4457293,
+          51.9624534
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_10969404504_cluster_4_cluster_3",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_10969404504_cluster_4",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4480446,
+          51.9640538
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_5390786250_cluster_6_cluster_4",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_5390786250_cluster_6",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.450509,
+          51.9658079
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_5735349098_cluster_8",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_5735349098_cluster_8",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4524686,
+          51.9666787
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_7072243049_cluster_9_cluster_6",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_7072243049_cluster_9",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.455695,
+          51.9675774
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_11231001237_cluster_11_cluster_7",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_11231001237_cluster_11",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -351,11 +283,11 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_9933716017",
+        "id": "poi_obs_cp_9933716017_cluster_13_cluster_8",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_9933716017",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "related_chokepoint": "cp_9933716017_cluster_13",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -363,33 +295,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2804114,
-          52.0878895
+          4.2830963,
+          52.089194
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_9933716017",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_9933716017",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2808339,
-          52.088103
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_9933716032",
+        "id": "poi_obs_cp_1200840342_cluster_15_cluster_9",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_9933716032",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "related_chokepoint": "cp_1200840342_cluster_15",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -397,33 +312,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2808339,
-          52.088103
+          4.2836621,
+          52.0912625
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_9933716032",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_9933716032",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2824868,
-          52.088789
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_2192484413",
+        "id": "poi_obs_cp_2752138589_cluster_17_cluster_10",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_2192484413",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "related_chokepoint": "cp_2752138589_cluster_17",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -431,220 +329,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2824868,
-          52.088789
+          4.284582,
+          52.0932073
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_2192484413",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_2192484413",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2831647,
-          52.0892852
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_4431755666",
+        "id": "poi_obs_cp_12416488012_cluster_19_cluster_11",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_4431755666",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2831647,
-          52.0892852
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_4431755666",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_4431755666",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2831962,
-          52.0893316
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200840437",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840437",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2831962,
-          52.0893316
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200840437",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840437",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2833534,
-          52.0903789
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200840426",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840426",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2833534,
-          52.0903789
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200840426",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840426",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2838556,
-          52.0917249
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200840476",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840476",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2838556,
-          52.0917249
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200840476",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840476",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2847442,
-          52.0935053
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200840360",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840360",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2847442,
-          52.0935053
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200840360",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840360",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2857472,
-          52.0950197
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200840369",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840369",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2857472,
-          52.0950197
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200840369",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840369",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "related_chokepoint": "cp_12416488012_cluster_19",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -657,11 +351,11 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_1200840398",
+        "id": "poi_obs_cp_1200840398_cluster_21_cluster_12",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_1200840398",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "related_chokepoint": "cp_1200840398_cluster_21",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -669,33 +363,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.286514,
-          52.0956981
+          4.2887152,
+          52.0964647
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_1200840398",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840398",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2875249,
-          52.0960975
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_2189093921",
+        "id": "poi_obs_cp_1200840533_cluster_23_cluster_13",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_2189093921",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "related_chokepoint": "cp_1200840533_cluster_23",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -703,84 +380,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2875249,
-          52.0960975
+          4.291896,
+          52.0971905
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_2189093921",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_2189093921",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2876354,
-          52.0961352
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200840549",
+        "id": "poi_obs_cp_1200840316_cluster_25_cluster_14",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_1200840549",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2876354,
-          52.0961352
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200840549",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840549",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2949686,
-          52.0978799
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200840355",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840355",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2949686,
-          52.0978799
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200840355",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840355",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "related_chokepoint": "cp_1200840316_cluster_25",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -793,11 +402,11 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_1200785922",
+        "id": "poi_obs_cp_1200785922_cluster_27_cluster_15",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_1200785922",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "related_chokepoint": "cp_1200785922_cluster_27",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -805,32 +414,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2961931,
-          52.098189
+          4.3001076,
+          52.0983817
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_1200785922",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200785922",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3089249,
-          52.0942466
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_45220485",
+        "id": "poi_obs_cp_2175480167_cluster_29",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_45220485",
+        "related_chokepoint": "cp_2175480167_cluster_29",
         "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
       }
     },
@@ -844,27 +436,10 @@
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_45220485",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_45220485",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3102526,
-          52.0926445
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1164136121",
+        "id": "poi_obs_cp_45220485_cluster_30",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_1164136121",
+        "related_chokepoint": "cp_45220485_cluster_30",
         "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
       }
     },
@@ -878,95 +453,10 @@
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_1164136121",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1164136121",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3103323,
-          52.092532
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1164135846",
+        "id": "poi_obs_cp_1164136121_cluster_31",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_1164135846",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3103323,
-          52.092532
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1164135846",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1164135846",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3123943,
-          52.0899517
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_10698110633",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_10698110633",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3123943,
-          52.0899517
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_10698110633",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_10698110633",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3124435,
-          52.089881
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_10698110627",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_10698110627",
+        "related_chokepoint": "cp_1164136121_cluster_31",
         "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
       }
     },
@@ -980,11 +470,11 @@
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_10698110627",
-        "type": "enemy_firing_point",
+        "id": "poi_obs_cp_10698110627_cluster_32_cluster_19",
+        "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_10698110627",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "related_chokepoint": "cp_10698110627_cluster_32",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -997,11 +487,470 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_45188005",
+        "id": "poi_obs_cp_45188005_cluster_34_cluster_20",
         "type": "enemy_observation_point",
         "related_route": null,
-        "related_chokepoint": "cp_45188005",
+        "related_chokepoint": "cp_45188005_cluster_34",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3156736,
+          52.0859237
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_1164135929_cluster_36_cluster_21",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1164135929_cluster_36",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3169613,
+          52.0844894
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_2478059048_cluster_38_cluster_22",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_2478059048_cluster_38",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3161237,
+          52.0826486
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_6519060615_cluster_40_cluster_23",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_6519060615_cluster_40",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3137276,
+          52.0815518
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_6519042432_cluster_42",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_6519042432_cluster_42",
         "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.311329,
+          52.0806463
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_6519030845_cluster_43_cluster_25",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_6519030845_cluster_43",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4522566,
+          51.9974458
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_345616183_cluster_45_cluster_26",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_345616183_cluster_45",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.452258,
+          52.0000405
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_1495608287_cluster_47",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1495608287_cluster_47",
+        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4351556,
+          51.9578975
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_4593416910",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_4593416910",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4410809,
+          51.9602748
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_11003276648_cluster_1_cluster_1",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_11003276648_cluster_1",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4439375,
+          51.9614833
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_10969424505_cluster_3",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_10969424505_cluster_3",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4457293,
+          51.9624534
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_10969404504_cluster_4_cluster_3",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_10969404504_cluster_4",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4480446,
+          51.9640538
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_5390786250_cluster_6_cluster_4",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_5390786250_cluster_6",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.450509,
+          51.9658079
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_5735349098_cluster_8",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_5735349098_cluster_8",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4524686,
+          51.9666787
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_7072243049_cluster_9_cluster_6",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_7072243049_cluster_9",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.455695,
+          51.9675774
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_11231001237_cluster_11_cluster_7",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_11231001237_cluster_11",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2804114,
+          52.0878895
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_9933716017_cluster_13_cluster_8",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_9933716017_cluster_13",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2830963,
+          52.089194
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_1200840342_cluster_15_cluster_9",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1200840342_cluster_15",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2836621,
+          52.0912625
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_2752138589_cluster_17_cluster_10",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_2752138589_cluster_17",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.284582,
+          52.0932073
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_12416488012_cluster_19_cluster_11",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_12416488012_cluster_19",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.286514,
+          52.0956981
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_1200840398_cluster_21_cluster_12",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1200840398_cluster_21",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2887152,
+          52.0964647
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_1200840533_cluster_23_cluster_13",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1200840533_cluster_23",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.291896,
+          52.0971905
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_1200840316_cluster_25_cluster_14",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1200840316_cluster_25",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2961931,
+          52.098189
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_1200785922_cluster_27_cluster_15",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1200785922_cluster_27",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3001076,
+          52.0983817
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_2175480167_cluster_29",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_2175480167_cluster_29",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3089249,
+          52.0942466
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_45220485_cluster_30",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_45220485_cluster_30",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3102526,
+          52.0926445
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_1164136121_cluster_31",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1164136121_cluster_31",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3124435,
+          52.089881
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_10698110627_cluster_32_cluster_19",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_10698110627_cluster_32",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -1014,45 +963,11 @@
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_45188005",
+        "id": "poi_fire_cp_45188005_cluster_34_cluster_20",
         "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_45188005",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3146993,
-          52.0871428
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1165671780",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1165671780",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3146993,
-          52.0871428
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1165671780",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1165671780",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "related_chokepoint": "cp_45188005_cluster_34",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -1065,11 +980,11 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_1164135929",
-        "type": "enemy_observation_point",
+        "id": "poi_fire_cp_1164135929_cluster_36_cluster_21",
+        "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_1164135929",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "related_chokepoint": "cp_1164135929_cluster_36",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -1077,16 +992,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3156736,
-          52.0859237
+          4.3169613,
+          52.0844894
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_1164135929",
+        "id": "poi_fire_cp_2478059048_cluster_38_cluster_22",
         "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_1164135929",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "related_chokepoint": "cp_2478059048_cluster_38",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -1099,11 +1014,11 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_6519060615",
-        "type": "enemy_observation_point",
+        "id": "poi_fire_cp_6519060615_cluster_40_cluster_23",
+        "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_6519060615",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "related_chokepoint": "cp_6519060615_cluster_40",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -1111,15 +1026,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3161237,
-          52.0826486
+          4.3137276,
+          52.0815518
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_6519060615",
+        "id": "poi_fire_cp_6519042432_cluster_42",
         "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_6519060615",
+        "related_chokepoint": "cp_6519042432_cluster_42",
         "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
       }
     },
@@ -1128,33 +1043,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3155786,
-          52.0824413
+          4.311329,
+          52.0806463
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_6519060621",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519060621",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3155786,
-          52.0824413
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_6519060621",
+        "id": "poi_fire_cp_6519030845_cluster_43_cluster_25",
         "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_6519060621",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "related_chokepoint": "cp_6519030845_cluster_43",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -1162,33 +1060,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3146882,
-          52.0820929
+          4.4522566,
+          51.9974458
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_6519042443",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519042443",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3146882,
-          52.0820929
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_6519042443",
+        "id": "poi_fire_cp_345616183_cluster_45_cluster_26",
         "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_6519042443",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "related_chokepoint": "cp_345616183_cluster_45",
+        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
       }
     },
     {
@@ -1196,236 +1077,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3142276,
-          52.0819172
+          4.452258,
+          52.0000405
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_6519042442",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519042442",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3142276,
-          52.0819172
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_6519042442",
+        "id": "poi_fire_cp_1495608287_cluster_47",
         "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_6519042442",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3139033,
-          52.0817467
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_6519042430",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519042430",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3139033,
-          52.0817467
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_6519042430",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519042430",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3136408,
-          52.0814216
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_6519030828",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519030828",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3136408,
-          52.0814216
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_6519030828",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519030828",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4217385,
-          51.9523983
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1433962107",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1433962107",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4217385,
-          51.9523983
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1433962107",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1433962107",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4216105,
-          51.95235
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_312642167",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_312642167",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4216105,
-          51.95235
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_312642167",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_312642167",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3716429,
-          52.0073674
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_629532196",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_629532196",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3716429,
-          52.0073674
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_629532196",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_629532196",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3159376,
-          52.0859526
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1164135916",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1164135916",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3159376,
-          52.0859526
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1164135916",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1164135916",
+        "related_chokepoint": "cp_1495608287_cluster_47",
         "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
       }
     }

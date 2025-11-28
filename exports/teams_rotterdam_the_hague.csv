@@ -1,10 +1,10 @@
 assigned_to,id,location,role_description,type
-cp_4593416919,SDT1,"(51.9561308, 4.430204)",Advance team: reconnaissance and early road closure at the highest-risk chokepoint.,SDT
-cp_10698110627,SDT2,"(52.089881, 4.3124435)",Static protection team securing approaches to a high-risk chokepoint.,SDT
-cp_45188005,SDT3,"(52.0874326, 4.3144678)",Rear security team covering potential follow-up attacks near a critical chokepoint.,SDT
-cp_312642167,SDT4,"(51.95235, 4.4216105)",Escort team integrated in the motorcade to respond at chokepoints.,SDT
-cp_1200840426,SDT5,"(52.0903789, 4.2833534)",Reserve team positioned to reinforce any chokepoint if threatened.,SDT
-cp_1200840398,SDT6,"(52.0956981, 4.286514)",Quick reaction force covering alternative evacuation routes.,SDT
-cp_4593416919,CS1,"(51.9561308, 4.430204)",Counter-sniper overwatch on the single most vulnerable chokepoint.,CS
-cp_10698110627,CS2,"(52.089881, 4.3124435)",Counter-sniper team covering the primary conference venue approach.,CS
-cp_45188005,CS3,"(52.0874326, 4.3144678)",Counter-sniper team covering the reception venue and surrounding access routes.,CS
+cp_1200840426_cluster_16,SDT1,"(52.0903789, 4.2833534)",Advance team: reconnaissance and early road closure at the highest-risk chokepoint.,SDT
+cp_1200840398_cluster_21,SDT2,"(52.0956981, 4.286514)",Static protection team securing approaches to a high-risk chokepoint.,SDT
+cp_10698110627_cluster_32,SDT3,"(52.089881, 4.3124435)",Rear security team covering potential follow-up attacks near a critical chokepoint.,SDT
+cp_45188005_cluster_34,SDT4,"(52.0874326, 4.3144678)",Escort team integrated in the motorcade to respond at chokepoints.,SDT
+cp_442717504_cluster_44,SDT5,"(52.0801418, 4.3098752)",Reserve team positioned to reinforce any chokepoint if threatened.,SDT
+cp_5735349098_cluster_8,SDT6,"(51.9658079, 4.450509)",Quick reaction force covering alternative evacuation routes.,SDT
+cp_1200840426_cluster_16,CS1,"(52.0903789, 4.2833534)",Counter-sniper overwatch on the single most vulnerable chokepoint.,CS
+cp_1200840398_cluster_21,CS2,"(52.0956981, 4.286514)",Counter-sniper team covering the primary conference venue approach.,CS
+cp_10698110627_cluster_32,CS3,"(52.089881, 4.3124435)",Counter-sniper team covering the reception venue and surrounding access routes.,CS

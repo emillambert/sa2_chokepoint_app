@@ -20,19 +20,19 @@ class Scenario:
         self.end = end
 
 
-# NOTE: The coordinates below are approximate and intended as sensible defaults.
-# You should refine them during your own reconnaissance for the assignment.
+# NOTE: The coordinates below represent the actual terminal locations where
+# motorcades would depart from the airport terminals before entering public roads.
 
 SCHIPHOL_SCENARIO = Scenario(
     name="schiphol",
-    start=(52.3105, 4.7683),  # Schiphol Airport (approx)
+    start=(52.3090, 4.7640),  # Schiphol Airport main terminal (Schiphol Plaza)
     via=(52.0930, 4.2867),  # World Forum, The Hague (approx)
     end=(52.0809, 4.3146),  # Mauritshuis, The Hague (approx)
 )
 
 ROTTERDAM_THE_HAGUE_SCENARIO = Scenario(
     name="rotterdam_the_hague",
-    start=(51.9569, 4.4372),  # Rotterdam/The Hague Airport (approx)
+    start=(51.9567, 4.4378),  # Rotterdam/The Hague Airport main terminal
     via=SCHIPHOL_SCENARIO.via,
     end=SCHIPHOL_SCENARIO.end,
 )

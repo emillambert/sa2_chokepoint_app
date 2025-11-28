@@ -20,7 +20,7 @@
 
 .layout {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.7fr 1.3fr;
   height: calc(100vh - 56px);
 }
 
@@ -97,6 +97,32 @@ select {
 
 .legend-cs {
   background: #a855f7;
+}
+
+/* External map links styling */
+.external-links {
+  margin-left: 0.5rem;
+  font-size: 0.9em;
+}
+
+.external-link {
+  color: #2563eb;
+  text-decoration: underline;
+  margin: 0 0.25rem;
+}
+
+.external-link:hover {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.external-link:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.external-link:active {
+  color: #1e40af;
 }
 
 

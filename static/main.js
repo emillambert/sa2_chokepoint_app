@@ -84,10 +84,41 @@ function renderAnalysis(data, summaryEl) {
     routeLayers.push(line);
     bounds.push(...latlngs);
 
+    // Create external map links that show the actual route
+    const routeCoords = route.path;
+    const startCoord = routeCoords[0]; // First coordinate
+    const endCoord = routeCoords[routeCoords.length - 1]; // Last coordinate
+
+    // Use intermediate waypoints for better route representation (every 50th point to avoid URL limits)
+    const waypoints = [];
+    for (let i = 50; i < routeCoords.length - 50; i += 50) {
+      waypoints.push(routeCoords[i]);
+    }
+
+    // Build OSM directions URL with waypoints
+    let osmUrl = `https://www.openstreetmap.org/directions?engine=graphhopper_car&route=${startCoord[0]},${startCoord[1]}`;
+    waypoints.forEach(coord => {
+      osmUrl += `;${coord[0]},${coord[1]}`;
+    });
+    osmUrl += `;${endCoord[0]},${endCoord[1]}`;
+
+    // Build Google Maps directions URL with waypoints
+    let googleUrl = `https://www.google.com/maps/dir/${startCoord[0]},${startCoord[1]}`;
+    waypoints.forEach(coord => {
+      googleUrl += `/${coord[0]},${coord[1]}`;
+    });
+    googleUrl += `/${endCoord[0]},${endCoord[1]}`;
+
+
+    const links = `<span class="external-links">
+      <a href="${osmUrl}" target="_blank" class="external-link" title="Open in OpenStreetMap" aria-label="Open ${route.label} in OpenStreetMap">OSM</a> |
+      <a href="${googleUrl}" target="_blank" class="external-link" title="Open in Google Maps" aria-label="Open ${route.label} in Google Maps">Google Maps</a>
+    </span>`;
+
     lines.push(
       `<li><strong>${route.label}</strong>: ${(route.length_m / 1000).toFixed(
         1
-      )} km, approx. ${route.turn_count} turns</li>`
+      )} km, approx. ${route.turn_count} turns ${links}</li>`
     );
   }
 
