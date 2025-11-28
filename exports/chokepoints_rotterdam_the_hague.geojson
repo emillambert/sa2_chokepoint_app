@@ -1,0 +1,538 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.430204,
+          51.9561308
+        ]
+      },
+      "properties": {
+        "id": "cp_4593416919",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 10.0,
+        "factors": [
+          "common_to_all_routes",
+          "major_intersection",
+          "bridge_or_viaduct"
+        ],
+        "description": "Node used by 3 of 3 routes. Factors: common_to_all_routes, major_intersection, bridge_or_viaduct."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3054863,
+          52.0840864
+        ]
+      },
+      "properties": {
+        "id": "cp_45171953",
+        "type": "intersection",
+        "routes_affected": [
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3045993,
+          52.0838501
+        ]
+      },
+      "properties": {
+        "id": "cp_6219556080",
+        "type": "intersection",
+        "routes_affected": [
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2895582,
+          52.0932562
+        ]
+      },
+      "properties": {
+        "id": "cp_45214549",
+        "type": "intersection",
+        "routes_affected": [
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2885914,
+          52.0928302
+        ]
+      },
+      "properties": {
+        "id": "cp_30216941",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 9.0,
+        "factors": [
+          "common_to_all_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 3 of 3 routes. Factors: common_to_all_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.287391,
+          52.0938187
+        ]
+      },
+      "properties": {
+        "id": "cp_12453613708",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 9.0,
+        "factors": [
+          "common_to_all_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 3 of 3 routes. Factors: common_to_all_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2872702,
+          52.0937603
+        ]
+      },
+      "properties": {
+        "id": "cp_45216863",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 9.0,
+        "factors": [
+          "common_to_all_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 3 of 3 routes. Factors: common_to_all_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2884715,
+          52.0927769
+        ]
+      },
+      "properties": {
+        "id": "cp_45212868",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_shortest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2985282,
+          52.086037
+        ]
+      },
+      "properties": {
+        "id": "cp_45180990",
+        "type": "intersection",
+        "routes_affected": [
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3065827,
+          52.0845216
+        ]
+      },
+      "properties": {
+        "id": "cp_45174555",
+        "type": "intersection",
+        "routes_affected": [
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 10.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "bridge_or_viaduct",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, bridge_or_viaduct, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3157432,
+          52.0809327
+        ]
+      },
+      "properties": {
+        "id": "cp_45159260",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 9.0,
+        "factors": [
+          "common_to_all_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 3 of 3 routes. Factors: common_to_all_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3158783,
+          52.0807398
+        ]
+      },
+      "properties": {
+        "id": "cp_45158474",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 9.0,
+        "factors": [
+          "common_to_all_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 3 of 3 routes. Factors: common_to_all_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3146202,
+          52.0804211
+        ]
+      },
+      "properties": {
+        "id": "cp_45157279",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 9.0,
+        "factors": [
+          "common_to_all_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 3 of 3 routes. Factors: common_to_all_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4217385,
+          51.9523983
+        ]
+      },
+      "properties": {
+        "id": "cp_1433962107",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2804114,
+          52.0878895
+        ]
+      },
+      "properties": {
+        "id": "cp_9933716017",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2831647,
+          52.0892852
+        ]
+      },
+      "properties": {
+        "id": "cp_4431755666",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2850859,
+          52.0929787
+        ]
+      },
+      "properties": {
+        "id": "cp_7080075359",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2847442,
+          52.0935053
+        ]
+      },
+      "properties": {
+        "id": "cp_1200840360",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2857472,
+          52.0950197
+        ]
+      },
+      "properties": {
+        "id": "cp_1200840369",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.286514,
+          52.0956981
+        ]
+      },
+      "properties": {
+        "id": "cp_1200840398",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3170085,
+          52.0813163
+        ]
+      },
+      "properties": {
+        "id": "cp_45160824",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    }
+  ]
+}

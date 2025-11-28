@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SA2 Chokepoint Analysis Tool</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ url_for('static', filename='favicon.png') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <h1>SA2 Chokepoint Analysis</h1>
+      <div class="controls">
+        <label for="scenario">Scenario:</label>
+        <select id="scenario">
+          <option value="schiphol">Even group – Schiphol</option>
+          <option value="rotterdam_the_hague">
+            Odd group – Rotterdam/The Hague
+          </option>
+        </select>
+        <button id="analyze-btn">Compute chokepoint analysis</button>
+      </div>
+    </header>
+    <main class="layout">
+      <section id="map"></section>
+      <aside class="sidebar">
+        <h2>Summary</h2>
+        <div id="summary"></div>
+      </aside>
+    </main>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+  </body>
+</html>
+
+
