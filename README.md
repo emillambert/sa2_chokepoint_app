@@ -16,7 +16,7 @@
 
 ## 1. Purpose of this Project
 
-This repository contains a student-built analysis tool for the **chokepoint assignment** in the course **Secret Affairs 2** (SA2).  [oai_citation:1‡2025-2026 Syllabus Secret Affairs 2.pdf](file-service://file-Tb6ZzZ53kfZMWUoJYVSaYY)  
+This repository contains a student-built analysis tool for the **chokepoint assignment** in the course **Secret Affairs 2** (SA2).
 
 Scenario (as in the assignment):
 
@@ -73,44 +73,9 @@ For each airport scenario (Schiphol or Rotterdam/The Hague), the tool:
 
 ---
 
-## 3. How It Fits the SA2 Chokepoint Assignment
+## 3. Overview of the Analysis Logic
 
-The tool is designed to mirror the structure and grading elements of the official SA2 assignment brief:  [oai_citation:2‡2025-2026 Syllabus Secret Affairs 2.pdf](file-service://file-Tb6ZzZ53kfZMWUoJYVSaYY)  
-
-1. **Part 1 – Routes**
-   - Provides three clearly different routes (≥ 90% different) for each airport:
-     - **Shortest**, **most logical**, **safest**.
-   - Each route is linked to arguments (why this route is chosen, why others are not).
-
-2. **Part 2 – Chokepoints**
-   - Identifies chokepoints that must always be crossed.
-   - Supports a **vulnerability assessment** per chokepoint.
-
-3. **Part 3 – Points of Interest**
-   - Clearly distinguishes:
-     - Ambush locations,
-     - Enemy firing points,
-     - Observation points,
-     - Surveillance points.
-   - Each point is motivated and can be shown on a map with a legend.
-
-4. **Part 4 – Countermeasures**
-   - Suggests realistic use of:
-     - 6 × SDT teams,
-     - 3 × CS teams.
-   - Supports the design of:
-     - Road closures,
-     - Reconnaissance tasks,
-     - Overwatch positions,
-     - Evacuation and contingency plans.
-
-The tool is therefore not a replacement for your own reconnaissance and judgement, but a **structured support instrument** that helps to keep the analysis systematic and transparent.
-
----
-
-## 4. Overview of the Analysis Logic
-
-### 4.1 Route Types
+### 3.1 Route Types
 
 For each airport:
 
@@ -131,7 +96,7 @@ For each airport:
     - Tunnels, underpasses, tight urban areas.
   - Might be longer in time and distance, but more defensible.
 
-### 4.2 Chokepoint Scoring (1–10)
+### 3.2 Chokepoint Scoring (1–10)
 
 The vulnerability score combines:
 
@@ -148,7 +113,7 @@ Higher scores (≥ 8) indicate locations that deserve priority security measures
 
 ---
 
-## 5. Main Outputs (What You Can Use in Your Paper)
+## 4. Main Outputs (What You Can Use in Your Paper)
 
 The tool is built to generate material that can be directly integrated into the SA2 written assignment:
 
@@ -175,29 +140,3 @@ The tool is built to generate material that can be directly integrated into the 
   - The underlying spatial data can be exported (e.g. GeoJSON/CSV) to be used in GIS tools or as figures in the report.
 
 All of this is meant to **support** your own field reconnaissance and written argumentation, not to replace it.
-
----
-
-## 6. Running the Tool (Optional – For Users with Basic Python Experience)
-
-You do **not** need to run the code to understand the analysis or to read the report.  
-However, if you are familiar with basic Python tools and wish to explore or reproduce the analysis, you can do so.
-
-### 6.1 Prerequisites
-
-- **Python 3.8+**
-- A computer with internet access (for the initial map data download).
-
-### 6.2 Basic Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/sa2_chokepoint_app.git
-cd sa2_chokepoint_app
-
-# (Optional but recommended) Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install required packages
-pip install -r requirements.txt

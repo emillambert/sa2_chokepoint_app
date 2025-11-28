@@ -1,4 +1,5 @@
 import logging
+import os
 from pathlib import Path
 
 from flask import Flask
@@ -24,6 +25,9 @@ def create_app() -> Flask:
         template_folder=str(BASE_DIR / "templates"),
         static_folder=str(BASE_DIR / "static"),
     )
+
+    # Configure for production deployment
+    app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'dev-key-change-in-production')
 
     # Late import to avoid circulars
     from .routes import bp as main_bp
