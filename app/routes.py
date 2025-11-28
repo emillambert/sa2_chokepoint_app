@@ -64,12 +64,16 @@ def analyze():
             len(analysis["pois"]),
             len(analysis["teams"]),
         )
-        return jsonify(analysis)
+        # Add cache control headers to prevent browser caching
+        response = jsonify(analysis)
+        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+        response.headers["Pragma"] = "no-cache"
+        response.headers["Expires"] = "0"
+        return response
     except Exception:
         logger.exception("Analysis failed for scenario=%s", scenario.name)
-        return (
-            jsonify({"error": "Analysis failed on the server. Check logs for details."}),
-            500,
-        )
+        response = jsonify({"error": "Analysis failed on the server. Check logs for details."})
+        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+        return response, 500
 
 

@@ -22,14 +22,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3065827,
-          52.0845216
+          4.3124435,
+          52.089881
         ]
       },
       "properties": {
         "id": "SDT2",
         "type": "SDT",
-        "assigned_to": "cp_45174555",
+        "assigned_to": "cp_10698110627",
         "role_description": "Static protection team securing approaches to a high-risk chokepoint."
       }
     },
@@ -38,14 +38,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2885914,
-          52.0928302
+          4.3144678,
+          52.0874326
         ]
       },
       "properties": {
         "id": "SDT3",
         "type": "SDT",
-        "assigned_to": "cp_30216941",
+        "assigned_to": "cp_45188005",
         "role_description": "Rear security team covering potential follow-up attacks near a critical chokepoint."
       }
     },
@@ -54,14 +54,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.287391,
-          52.0938187
+          4.4216105,
+          51.95235
         ]
       },
       "properties": {
         "id": "SDT4",
         "type": "SDT",
-        "assigned_to": "cp_12453613708",
+        "assigned_to": "cp_312642167",
         "role_description": "Escort team integrated in the motorcade to respond at chokepoints."
       }
     },
@@ -70,14 +70,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2872702,
-          52.0937603
+          4.2833534,
+          52.0903789
         ]
       },
       "properties": {
         "id": "SDT5",
         "type": "SDT",
-        "assigned_to": "cp_45216863",
+        "assigned_to": "cp_1200840426",
         "role_description": "Reserve team positioned to reinforce any chokepoint if threatened."
       }
     },
@@ -86,14 +86,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3157432,
-          52.0809327
+          4.286514,
+          52.0956981
         ]
       },
       "properties": {
         "id": "SDT6",
         "type": "SDT",
-        "assigned_to": "cp_45159260",
+        "assigned_to": "cp_1200840398",
         "role_description": "Quick reaction force covering alternative evacuation routes."
       }
     },
@@ -118,14 +118,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3065827,
-          52.0845216
+          4.3124435,
+          52.089881
         ]
       },
       "properties": {
         "id": "CS2",
         "type": "CS",
-        "assigned_to": "cp_45174555",
+        "assigned_to": "cp_10698110627",
         "role_description": "Counter-sniper team covering the primary conference venue approach."
       }
     },
@@ -134,14 +134,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2885914,
-          52.0928302
+          4.3144678,
+          52.0874326
         ]
       },
       "properties": {
         "id": "CS3",
         "type": "CS",
-        "assigned_to": "cp_30216941",
+        "assigned_to": "cp_45188005",
         "role_description": "Counter-sniper team covering the reception venue and surrounding access routes."
       }
     }

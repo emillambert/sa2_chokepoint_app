@@ -1,0 +1,4 @@
+id,kind,label,length_m,turn_count
+r_shortest,shortest,Shortest route,37269.7816403714,426
+r_logical,logical,Most logical route,44439.54831217515,772
+r_safest,safest,Safest route,50666.97630596974,511

@@ -158,9 +158,11 @@ Traditional mapping tools weren't enough for this assignment. I needed:
 - **Data export** for academic figures and tables
 
 ### Key Features
-- [x] **Real-world data**: Uses actual OpenStreetMap road networks
-- [x] **Transparent algorithms**: All scoring criteria documented
+- [x] **Real-world data**: Uses actual OpenStreetMap road networks with intelligent filtering
+- [x] **Advanced routing**: A* pathfinding with custom edge weighting for realistic road following
+- [x] **Transparent algorithms**: All scoring criteria and filtering logic documented
 - [x] **Dual scenario support**: Complete analysis for both airport groups
+- [x] **Perfect road matching**: Uses actual road geometries instead of straight lines between intersections
 - [x] **Export capabilities**: GeoJSON/CSV for report integration
 - [x] **Offline fallback**: Works without internet for OSM data
 

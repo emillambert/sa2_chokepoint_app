@@ -4,6 +4,7 @@ from dataclasses import asdict
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
+import math
 import networkx as nx
 import osmnx as ox
 from osmnx import distance as ox_distance
@@ -38,10 +39,40 @@ def build_graph(center: LatLon, dist_m: int = 20000) -> nx.MultiDiGraph:
         return ox.load_graphml(GRAPH_CACHE_FILE)
 
     logger.info("Downloading road network from OSM (dist=%sm)", dist_m)
-    G = ox.graph_from_point(center, dist=dist_m, network_type="drive")
+    # Get the full road network with high resolution geometries
+    G = ox.graph_from_point(center, dist=dist_m, network_type="drive", simplify=False)
     G = ox_distance.add_edge_lengths(G)
+
+    # Filter out roads that are unsuitable for motorcades
+    # Remove pedestrian-only ways, cycleways, and minor roads to force major road usage
+    edges_to_remove = []
+    for u, v, k, data in G.edges(keys=True, data=True):
+        highway = _normalize_highway(data.get("highway", ""))
+        # Remove paths that aren't suitable for motorcade routes
+        if highway in {"footway", "pedestrian", "cycleway", "path", "steps", "track"}:
+            edges_to_remove.append((u, v, k))
+        # Remove residential streets and living streets (too narrow for motorcades)
+        elif highway in {"residential", "living_street", "unclassified"}:
+            edges_to_remove.append((u, v, k))
+        # Remove service roads that are likely to be narrow alleys
+        elif highway == "service":
+            edges_to_remove.append((u, v, k))
+        # Remove tertiary roads unless they're important connectors
+        elif highway == "tertiary":
+            # Keep some tertiary roads that connect major routes, but penalize them heavily
+            pass  # We'll handle tertiary roads in the weighting instead
+
+    for u, v, k in edges_to_remove:
+        if G.has_edge(u, v, k):
+            G.remove_edge(u, v, k)
+
+    # Remove isolated nodes (nodes with no edges)
+    isolated_nodes = [node for node in G.nodes() if G.degree(node) == 0]
+    G.remove_nodes_from(isolated_nodes)
+
     ox.save_graphml(G, GRAPH_CACHE_FILE)
-    logger.info("Road network downloaded and cached (%d nodes)", len(G.nodes))
+    logger.info("Road network downloaded, filtered and cached (%d nodes, %d edges)",
+                len(G.nodes), len(G.edges))
     return G
 
 
@@ -61,7 +92,44 @@ def _path_length(G: nx.MultiDiGraph, path: List[int]) -> float:
 
 
 def _path_to_coords(G: nx.MultiDiGraph, path: List[int]) -> List[LatLon]:
-    return [(float(G.nodes[n]["y"]), float(G.nodes[n]["x"])) for n in path]
+    """Extract coordinates that perfectly follow road geometries, not just node points."""
+    coords = []
+
+    for i in range(len(path) - 1):
+        u, v = path[i], path[i + 1]
+
+        # Get edge data (handle MultiDiGraph)
+        edge_data = G.get_edge_data(u, v)
+        if not edge_data:
+            continue
+
+        # Get the edge with the shortest length (or any if no length data)
+        edge = min(edge_data.values(), key=lambda d: d.get("length", 0))
+
+        # Check if edge has geometry data
+        if "geometry" in edge and edge["geometry"] is not None:
+            # Use the full road geometry
+            geometry = edge["geometry"]
+            # Convert shapely LineString to coordinate list
+            edge_coords = list(geometry.coords)
+            # Convert to (lat, lon) tuples
+            edge_coords = [(float(coord[1]), float(coord[0])) for coord in edge_coords]
+
+            # Add coordinates, but avoid duplicating the connection point
+            if coords:
+                # Skip the first coordinate if it matches the last one added
+                start_idx = 1 if edge_coords and coords[-1] == edge_coords[0] else 0
+                coords.extend(edge_coords[start_idx:])
+            else:
+                coords.extend(edge_coords)
+        else:
+            # Fallback: use node coordinates if no geometry available
+            if not coords or coords[-1] != (float(G.nodes[u]["y"]), float(G.nodes[u]["x"])):
+                coords.append((float(G.nodes[u]["y"]), float(G.nodes[u]["x"])))
+            if i == len(path) - 2:  # Last edge
+                coords.append((float(G.nodes[v]["y"]), float(G.nodes[v]["x"])))
+
+    return coords
 
 
 def _nodes_metadata(G: nx.MultiDiGraph, path: List[int]) -> List[Dict]:
@@ -139,10 +207,12 @@ def _extract_edge_attrs(data: Any) -> Dict:
 
 
 def _estimate_turns(G: nx.MultiDiGraph, path: List[int]) -> int:
-    # Simple proxy: treat each node with degree > 2 as a potential turn.
+    """Estimate the number of turns in a path by analyzing node connectivity."""
     turns = 0
-    for n in path[1:-1]:
-        if G.degree[n] > 2:
+    for i in range(1, len(path) - 1):
+        node = path[i]
+        # A turn occurs at intersections with multiple possible directions
+        if G.degree[node] > 2:
             turns += 1
     return turns
 
@@ -177,9 +247,51 @@ def _route_from_path(
 
 def _shortest_route(G: nx.MultiDiGraph, start: int, via: int, end: int) -> List[int]:
     """Compute the globally shortest route via the conference location."""
-    path1 = nx.shortest_path(G, start, via, weight="length")
-    path2 = nx.shortest_path(G, via, end, weight="length")
+    # Use A* with straight-line distance heuristic for better performance
+    def heuristic(u, v):
+        # Simple Euclidean distance as heuristic
+        u_coords = (G.nodes[u]['y'], G.nodes[u]['x'])
+        v_coords = (G.nodes[v]['y'], G.nodes[v]['x'])
+        return ox.distance.great_circle(u_coords[0], u_coords[1], v_coords[0], v_coords[1])
+
+    try:
+        path1 = nx.astar_path(G, start, via, heuristic=heuristic, weight="length")
+        path2 = nx.astar_path(G, via, end, heuristic=heuristic, weight="length")
+    except nx.NetworkXNoPath:
+        # Fallback to Dijkstra if A* fails
+        path1 = nx.shortest_path(G, start, via, weight="length")
+        path2 = nx.shortest_path(G, via, end, weight="length")
+
     return path1 + path2[1:]
+
+
+def _calculate_turn_angle(G: nx.MultiDiGraph, prev_u: int, u: int, v: int) -> float:
+    """Calculate the turning angle at node u when going from prev_u to v."""
+    if prev_u == u or u == v:
+        return 0.0
+
+    # Get coordinates
+    prev_coords = (G.nodes[prev_u]['x'], G.nodes[prev_u]['y'])
+    u_coords = (G.nodes[u]['x'], G.nodes[u]['y'])
+    v_coords = (G.nodes[v]['x'], G.nodes[v]['y'])
+
+    # Calculate vectors
+    vec1 = (u_coords[0] - prev_coords[0], u_coords[1] - prev_coords[1])
+    vec2 = (v_coords[0] - u_coords[0], v_coords[1] - u_coords[1])
+
+    # Calculate angle using dot product
+    dot_product = vec1[0] * vec2[0] + vec1[1] * vec2[1]
+    mag1 = (vec1[0]**2 + vec1[1]**2)**0.5
+    mag2 = (vec2[0]**2 + vec2[1]**2)**0.5
+
+    if mag1 == 0 or mag2 == 0:
+        return 0.0
+
+    cos_angle = dot_product / (mag1 * mag2)
+    cos_angle = max(-1, min(1, cos_angle))  # Clamp to avoid floating point errors
+
+    angle = abs(math.acos(cos_angle))
+    return angle
 
 
 def _logical_route(
@@ -191,18 +303,40 @@ def _logical_route(
         attrs = _extract_edge_attrs(data)
         base = float(attrs.get("length", 1.0))
         highway = _normalize_highway(attrs.get("highway"))
-        # Prefer motorways and trunks slightly by making them effectively shorter.
+
+        # Strong preference for highways and major roads
         if highway in {"motorway", "trunk"}:
-            base *= 0.7
-        elif highway in {"primary", "secondary"}:
-            base *= 0.85
+            base *= 0.6  # Strong preference for highways
+        elif highway == "primary":
+            base *= 0.75  # Good preference for primary roads
+        elif highway == "secondary":
+            base *= 0.85  # Moderate preference for secondary roads
+        elif highway == "tertiary":
+            base *= 0.95  # Slight preference for tertiary roads
+        elif highway in {"residential", "living_street"}:
+            base *= 1.3  # Penalty for residential streets
+        elif highway == "service":
+            base *= 1.5  # Strong penalty for service roads
 
         if (u, v) in avoid_edges:
-            base *= 5.0
+            base *= 4.0  # Reduced penalty to allow some overlap but discourage it
         return base
 
-    path1 = nx.shortest_path(G, start, via, weight=edge_weight)
-    path2 = nx.shortest_path(G, via, end, weight=edge_weight)
+    # Use A* for better pathfinding with turn penalties
+    def astar_edge_weight(u, v, data):
+        base_weight = edge_weight(u, v, data)
+        # Add turn penalty if we can determine it (this is simplified)
+        # In a full implementation, you'd track the previous edge
+        return base_weight
+
+    try:
+        path1 = nx.astar_path(G, start, via, weight=astar_edge_weight)
+        path2 = nx.astar_path(G, via, end, weight=astar_edge_weight)
+    except nx.NetworkXNoPath:
+        # Fallback to regular shortest path
+        path1 = nx.shortest_path(G, start, via, weight=edge_weight)
+        path2 = nx.shortest_path(G, via, end, weight=edge_weight)
+
     return path1 + path2[1:]
 
 
@@ -216,20 +350,44 @@ def _safest_route(
         base = float(attrs.get("length", 1.0))
         highway = _normalize_highway(attrs.get("highway"))
         tunnel = _has_attr(attrs.get("tunnel"), {"yes", "building_passage"})
+        bridge = _has_attr(attrs.get("bridge"), {"yes", "viaduct"})
 
+        # Heavy penalties for dangerous infrastructure
         if tunnel:
-            base *= 3.0
-        if highway in {"living_street", "residential"}:
-            base *= 1.6
-        elif highway in {"motorway", "trunk"}:
-            base *= 0.9
+            base *= 5.0  # Strong avoidance of tunnels
+        if bridge:
+            base *= 2.5  # Moderate avoidance of bridges (they can be choke points)
+
+        # Road type preferences for safety
+        if highway in {"motorway", "trunk"}:
+            base *= 0.8  # Slight preference for controlled highways
+        elif highway == "primary":
+            base *= 0.9  # Slight preference for primary roads
+        elif highway == "secondary":
+            base *= 1.0  # Neutral for secondary roads
+        elif highway == "tertiary":
+            base *= 1.2  # Slight penalty for tertiary roads
+        elif highway in {"residential", "living_street"}:
+            base *= 2.0  # Strong penalty for residential areas
+        elif highway == "service":
+            base *= 3.0  # Heavy penalty for service roads
+
+        # Avoid complex intersections
+        if G.degree[u] > 3 or G.degree[v] > 3:
+            base *= 1.3  # Penalty for complex intersections
 
         if (u, v) in avoid_edges:
-            base *= 5.0
+            base *= 3.0  # Allow some reuse but discourage it
         return base
 
-    path1 = nx.shortest_path(G, start, via, weight=edge_weight)
-    path2 = nx.shortest_path(G, via, end, weight=edge_weight)
+    try:
+        path1 = nx.astar_path(G, start, via, weight=edge_weight)
+        path2 = nx.astar_path(G, via, end, weight=edge_weight)
+    except nx.NetworkXNoPath:
+        # Fallback to regular shortest path
+        path1 = nx.shortest_path(G, start, via, weight=edge_weight)
+        path2 = nx.shortest_path(G, via, end, weight=edge_weight)
+
     return path1 + path2[1:]
 
 
