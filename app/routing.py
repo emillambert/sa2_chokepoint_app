@@ -23,6 +23,8 @@ ox.settings.use_cache = True
 ox.settings.timeout = 60  # seconds
 ox.settings.log_console = False
 
+# Priority order: precomputed (repo-included) -> cache (runtime) -> download (fallback)
+PRECOMPUTED_GRAPH_FILE = BASE_DIR / "precomputed" / "the_hague.graphml"
 GRAPH_CACHE_FILE = CACHE_DIR / "the_hague.graphml"
 logger = logging.getLogger(__name__)
 
@@ -34,6 +36,12 @@ def build_graph(center: LatLon, dist_m: int = 20000) -> nx.MultiDiGraph:
     the user runs the app multiple times.
     """
 
+    # Priority 1: Check repository-included precomputed graph (instant load)
+    if PRECOMPUTED_GRAPH_FILE.exists():
+        logger.info("Loading precomputed road network from %s", PRECOMPUTED_GRAPH_FILE)
+        return ox.load_graphml(PRECOMPUTED_GRAPH_FILE)
+
+    # Priority 2: Check runtime cache
     if GRAPH_CACHE_FILE.exists():
         logger.info("Loading cached road network from %s", GRAPH_CACHE_FILE)
         return ox.load_graphml(GRAPH_CACHE_FILE)

@@ -18,6 +18,28 @@
   align-items: center;
 }
 
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #f9fafb;
+  text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+  font-size: 0.9rem;
+}
+
+.github-link:hover {
+  background-color: #1f2937;
+  text-decoration: none;
+  color: #f9fafb;
+}
+
+.github-link svg {
+  opacity: 0.8;
+}
+
 .layout {
   display: grid;
   grid-template-columns: 1.7fr 1.3fr;

@@ -58,3 +58,7 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+
+# Runtime cache (but keep precomputed graphs in repository)
+cache/*.graphml
+
