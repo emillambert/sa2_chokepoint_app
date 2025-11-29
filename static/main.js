@@ -4,6 +4,47 @@ let chokepointLayers = [];
 let poiLayers = [];
 let teamLayers = [];
 
+// Cache management functions
+function saveAnalysisToCache(scenario, data) {
+  const cacheKey = `analysis_${scenario}`;
+  const cacheData = {
+    data: data,
+    timestamp: Date.now(),
+    scenario: scenario
+  };
+  try {
+    localStorage.setItem(cacheKey, JSON.stringify(cacheData));
+  } catch (e) {
+    console.warn('Failed to save analysis to cache:', e);
+  }
+}
+
+function loadAnalysisFromCache(scenario) {
+  const cacheKey = `analysis_${scenario}`;
+  const cached = localStorage.getItem(cacheKey);
+  if (cached) {
+    try {
+      return JSON.parse(cached);
+    } catch (e) {
+      console.warn('Failed to parse cached analysis data:', e);
+      return null;
+    }
+  }
+  return null;
+}
+
+function getTimeAgo(timestamp) {
+  const now = Date.now();
+  const diff = now - timestamp;
+  const minutes = Math.floor(diff / 60000);
+  if (minutes < 1) return "just now";
+  if (minutes < 60) return `${minutes} minute${minutes === 1 ? '' : 's'} ago`;
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `${hours} hour${hours === 1 ? '' : 's'} ago`;
+  const days = Math.floor(hours / 24);
+  return `${days} day${days === 1 ? '' : 's'} ago`;
+}
+
 function initMap() {
   map = L.map("map").setView([52.08, 4.3], 11);
 
@@ -19,6 +60,25 @@ window.addEventListener("DOMContentLoaded", () => {
   const button = document.getElementById("analyze-btn");
   const summary = document.getElementById("summary");
   const scenarioSelect = document.getElementById("scenario");
+
+  // Load cached data on startup
+  const cachedData = loadAnalysisFromCache(scenarioSelect.value);
+  if (cachedData) {
+    renderAnalysis(cachedData.data, summary, cachedData.timestamp);
+  }
+
+  // Handle scenario changes - load cached data for new scenario
+  scenarioSelect.addEventListener("change", () => {
+    clearRoutes();
+    clearMarkers();
+
+    const newCachedData = loadAnalysisFromCache(scenarioSelect.value);
+    if (newCachedData) {
+      renderAnalysis(newCachedData.data, summary, newCachedData.timestamp);
+    } else {
+      summary.innerHTML = '<p>Select a scenario and click "Compute chokepoint analysis" to begin.</p>';
+    }
+  });
 
   button.addEventListener("click", async () => {
     button.disabled = true;
@@ -36,6 +96,11 @@ window.addEventListener("DOMContentLoaded", () => {
       }
 
       const data = await response.json();
+
+      // Save to cache
+      saveAnalysisToCache(scenarioSelect.value, data);
+
+      // Render fresh data
       renderAnalysis(data, summary);
     } catch (err) {
       console.error(err);
@@ -61,7 +126,7 @@ function clearMarkers() {
   teamLayers = [];
 }
 
-function renderAnalysis(data, summaryEl) {
+function renderAnalysis(data, summaryEl, cachedTimestamp = null) {
   clearRoutes();
   clearMarkers();
 
@@ -149,6 +214,14 @@ function renderAnalysis(data, summaryEl) {
   const sdtCount = teamValues.filter((t) => t.type === "SDT").length;
   const csCount = teamValues.filter((t) => t.type === "CS").length;
 
+  // Add cache info if applicable
+  const cacheInfo = cachedTimestamp
+    ? `<p style="font-size: 0.9em; color: #666; margin-top: 8px;">
+        <em>Data loaded from cache (${getTimeAgo(cachedTimestamp)})</em>
+        <button id="refresh-btn" style="margin-left: 8px; padding: 2px 8px; font-size: 0.8em;">Refresh</button>
+      </p>`
+    : '';
+
   summaryEl.innerHTML = `
     <p>Scenario: <strong>${data.scenario.name}</strong></p>
     <p>Three routes have been computed between the airport, World Forum and Mauritshuis.</p>
@@ -165,7 +238,30 @@ function renderAnalysis(data, summaryEl) {
     <h3>Security teams</h3>
     <p><span class="legend-swatch legend-sdt"></span> SDT teams: ${sdtCount}, <span class="legend-swatch legend-cs"></span> CS teams: ${csCount}.</p>
     <p>Use this visualisation together with your manual reconnaissance to write up Parts 1–4 of the chokepoint analysis.</p>
+    ${cacheInfo}
   `;
+
+  // Add refresh button handler
+  if (cachedTimestamp) {
+    setTimeout(() => {
+      const refreshBtn = document.getElementById("refresh-btn");
+      if (refreshBtn) {
+        refreshBtn.addEventListener("click", () => {
+          const analyzeBtn = document.getElementById("analyze-btn");
+          if (analyzeBtn) {
+            analyzeBtn.click();
+          }
+        });
+      }
+    }, 0);
+  }
+}
+
+function createStreetViewLink(lat, lon, title) {
+  // Free Google Street View URL that actually opens Street View
+  const streetViewUrl = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lon}&heading=0&pitch=0&fov=80`;
+
+  return `<br><a href="${streetViewUrl}" target="_blank" style="color: #2563eb;">Street View</a>`;
 }
 
 function renderChokepoints(chokepoints) {
@@ -181,7 +277,8 @@ function renderChokepoints(chokepoints) {
     marker.bindPopup(
       `<strong>Chokepoint ${cp.id}</strong><br />Vulnerability: ${cp.vulnerability_score.toFixed(
         1
-      )}/10<br />${cp.description}`
+      )}/10<br />${cp.description}
+      ${createStreetViewLink(lat, lon, `Chokepoint ${cp.id}`)}`
     );
     chokepointLayers.push(marker);
   });
@@ -205,7 +302,8 @@ function renderPois(pois) {
       fillOpacity: 0.85,
     }).addTo(map);
     marker.bindPopup(
-      `<strong>${poi.type.replace(/_/g, " ")}</strong><br />${poi.description}`
+      `<strong>${poi.type.replace(/_/g, " ")}</strong><br />${poi.description}
+      ${createStreetViewLink(lat, lon, poi.type)}`
     );
     poiLayers.push(marker);
   });
@@ -225,7 +323,8 @@ function renderTeams(teams) {
     marker.bindPopup(
       `<strong>${team.id} (${team.type})</strong><br />Assigned to: ${
         team.assigned_to || "general coverage"
-      }<br />${team.role_description}`
+      }<br />${team.role_description}
+      ${createStreetViewLink(lat, lon, `${team.id} Team`)}`
     );
     teamLayers.push(marker);
   });
