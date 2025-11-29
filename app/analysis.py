@@ -347,6 +347,10 @@ def find_pois(route_data: Dict[str, Dict], chokepoints: Dict[str, Dict]) -> Dict
         nodes_meta = payload.get("nodes_meta", [])
 
         # 1) Ambush locations – narrow or constrained segments
+        # Scale POI limits by route length for comprehensive coverage
+        route_length = len(edges)
+        ambush_limit = max(5, route_length // 40)  # ~1 POI per 40 edges, minimum 5
+
         ambush_count = 0
         for edge in edges:
             highway = edge.get("highway")
@@ -370,10 +374,13 @@ def find_pois(route_data: Dict[str, Dict], chokepoints: Dict[str, Dict]) -> Dict
                 )
                 pois[poi_id] = asdict(poi)
                 ambush_count += 1
-                if ambush_count >= 3:
+                if ambush_count >= ambush_limit:
                     break
 
         # 2) Surveillance points – intersections on major roads
+        # Scale POI limits by route length for comprehensive coverage
+        surveillance_limit = max(4, route_length // 30)  # ~1 POI per 30 edges, minimum 4
+
         surveillance_count = 0
         for edge in edges:
             idx = int(edge.get("index", 0))
@@ -402,7 +409,7 @@ def find_pois(route_data: Dict[str, Dict], chokepoints: Dict[str, Dict]) -> Dict
             )
             pois[poi_id] = asdict(poi)
             surveillance_count += 1
-            if surveillance_count >= 3:
+            if surveillance_count >= surveillance_limit:
                 break
 
     # Chokepoint-based POIs: observation and firing points
