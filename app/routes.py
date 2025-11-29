@@ -48,7 +48,7 @@ def analyze():
 
     logger.info("Starting analysis for scenario=%s", scenario.name)
     try:
-        routes = compute_routes(scenario.start, scenario.via, scenario.end)
+        routes = compute_routes(scenario.start, scenario.via, scenario.end, scenario.name)
         analysis = full_analysis(routes)
         analysis["scenario"] = {
             "name": scenario.name,

@@ -24,17 +24,19 @@ ox.settings.timeout = 60  # seconds
 ox.settings.log_console = False
 
 # Priority order: precomputed (repo-included) -> cache (runtime) -> download (fallback)
-PRECOMPUTED_GRAPH_FILE = BASE_DIR / "precomputed" / "the_hague.graphml"
-GRAPH_CACHE_FILE = CACHE_DIR / "the_hague.graphml"
 logger = logging.getLogger(__name__)
 
 
-def build_graph(center: LatLon, dist_m: int = 20000) -> nx.MultiDiGraph:
+def build_graph(center: LatLon, dist_m: int = 20000, scenario_name: str = "default") -> nx.MultiDiGraph:
     """Download and build a drivable road network around the given center.
 
     The graph is cached by osmnx internally so repeated calls are cheap when
     the user runs the app multiple times.
     """
+
+    # Use scenario-specific graph files
+    PRECOMPUTED_GRAPH_FILE = BASE_DIR / "precomputed" / f"{scenario_name}_graph.graphml"
+    GRAPH_CACHE_FILE = CACHE_DIR / f"{scenario_name}_graph.graphml"
 
     # Priority 1: Check repository-included precomputed graph (instant load)
     if PRECOMPUTED_GRAPH_FILE.exists():
@@ -403,7 +405,7 @@ def _edge_set(path: List[int]) -> set[Tuple[int, int]]:
     return {(u, v) for u, v in zip(path[:-1], path[1:])}
 
 
-def compute_routes(start: LatLon, via: LatLon, end: LatLon) -> Dict[str, Dict]:
+def compute_routes(start: LatLon, via: LatLon, end: LatLon, scenario_name: str = "default") -> Dict[str, Dict]:
     """Compute three distinct routes (shortest, logical, safest) between waypoints.
 
     Returns a JSON-serialisable dictionary for easy use in the API layer.
@@ -411,7 +413,7 @@ def compute_routes(start: LatLon, via: LatLon, end: LatLon) -> Dict[str, Dict]:
     try:
         logger.info("Computing routes between %s -> %s -> %s", start, via, end)
         # Use the via point as rough center for the graph.
-        G = build_graph(via)
+        G = build_graph(via, scenario_name=scenario_name)
         start_n = _node_for_point(G, start)
         via_n = _node_for_point(G, via)
         end_n = _node_for_point(G, end)
