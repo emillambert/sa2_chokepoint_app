@@ -346,12 +346,7 @@ def find_pois(route_data: Dict[str, Dict], chokepoints: Dict[str, Dict]) -> Dict
         edges = payload.get("edges_meta", [])
         nodes_meta = payload.get("nodes_meta", [])
 
-        # 1) Ambush locations – narrow or constrained segments
-        # Scale POI limits by route length for comprehensive coverage
-        route_length = len(edges)
-        ambush_limit = max(5, route_length // 40)  # ~1 POI per 40 edges, minimum 5
-
-        ambush_count = 0
+        # 1) Ambush locations – ALL narrow or constrained segments
         for edge in edges:
             highway = edge.get("highway")
             is_tunnel = edge.get("is_tunnel")
@@ -367,21 +362,11 @@ def find_pois(route_data: Dict[str, Dict], chokepoints: Dict[str, Dict]) -> Dict
                     location=(float(lat), float(lon)),
                     related_route=route_id,
                     related_chokepoint=None,
-                    description=(
-                        "Likely ambush location where the motorcade must slow down "
-                        "near a constrained or structurally complex segment."
-                    ),
+                    description="Potential ambush location in constrained road segment.",
                 )
                 pois[poi_id] = asdict(poi)
-                ambush_count += 1
-                if ambush_count >= ambush_limit:
-                    break
 
-        # 2) Surveillance points – intersections on major roads
-        # Scale POI limits by route length for comprehensive coverage
-        surveillance_limit = max(4, route_length // 30)  # ~1 POI per 30 edges, minimum 4
-
-        surveillance_count = 0
+        # 2) Surveillance points – ALL major road intersections
         for edge in edges:
             idx = int(edge.get("index", 0))
             if idx + 1 >= len(nodes_meta):
@@ -402,15 +387,9 @@ def find_pois(route_data: Dict[str, Dict], chokepoints: Dict[str, Dict]) -> Dict
                 location=(float(lat), float(lon)),
                 related_route=route_id,
                 related_chokepoint=None,
-                description=(
-                    "Intersection with multiple access routes suitable for hostile "
-                    "or friendly surveillance of the motorcade."
-                ),
+                description="Major road intersection suitable for surveillance.",
             )
             pois[poi_id] = asdict(poi)
-            surveillance_count += 1
-            if surveillance_count >= surveillance_limit:
-                break
 
     # Chokepoint-based POIs: observation and firing points
     for cp_id, cp in chokepoints.items():
