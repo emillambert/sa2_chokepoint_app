@@ -5,7 +5,9 @@ app = create_app()
 
 # For local development
 def main() -> None:
-    app.run(debug=True, host="127.0.0.1", port=5000)
+    import os
+    port = int(os.environ.get('FLASK_RUN_PORT', 5000))
+    app.run(debug=True, host="127.0.0.1", port=port)
 
 
 if __name__ == "__main__":
