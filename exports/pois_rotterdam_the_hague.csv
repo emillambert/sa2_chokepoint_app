@@ -1,12 +1,258 @@
 description,id,location,related_chokepoint,related_route,type
-Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment. (Represents cluster of 4 nearby locations within 150m),poi_ambush_r_shortest_20_cluster_0,"(51.9667922, 4.4527599)",,r_shortest,ambush_location
-Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment.,poi_ambush_r_shortest_94,"(51.9540581, 4.4241184)",,r_shortest,ambush_location
-Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment.,poi_ambush_r_logical_51,"(51.9702547, 4.4538348)",,r_logical,ambush_location
-Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment.,poi_ambush_r_logical_55,"(51.9732704, 4.4514902)",,r_logical,ambush_location
-Likely ambush location where the motorcade must slow down near a constrained or structurally complex segment. (Represents cluster of 2 nearby locations within 150m),poi_ambush_r_safest_68_cluster_4,"(51.9663865, 4.4584702)",,r_safest,ambush_location
-Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_shortest_41_cluster_0,"(51.9687196, 4.4552309)",,r_shortest,surveillance_point
-Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_shortest_244_cluster_1,"(52.0473148, 4.3493421)",,r_shortest,surveillance_point
-Intersection with multiple access routes suitable for hostile or friendly surveillance of the motorcade. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_safest_40_cluster_2,"(51.9664756, 4.4577407)",,r_safest,surveillance_point
+Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m),poi_ambush_r_shortest_20_cluster_0,"(51.9667922, 4.4527599)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m),poi_ambush_r_shortest_94_cluster_1,"(51.9540581, 4.4241184)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m),poi_ambush_r_shortest_109_cluster_2,"(51.9549903, 4.4144271)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_shortest_130,"(51.9666278, 4.4034618)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_shortest_148,"(51.9871455, 4.3930982)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_shortest_162,"(52.006786, 4.3833851)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_shortest_166,"(52.0117827, 4.3775716)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_shortest_170,"(52.0156158, 4.373093)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_shortest_174,"(52.021375, 4.3663886)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m),poi_ambush_r_shortest_209_cluster_9,"(52.0394116, 4.3525299)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m),poi_ambush_r_shortest_271_cluster_10,"(52.0518173, 4.3433586)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 22 nearby locations within 150m),poi_ambush_r_shortest_323_cluster_11,"(52.0597912, 4.3348989)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 17 nearby locations within 150m),poi_ambush_r_shortest_345_cluster_12,"(52.0598592, 4.3326125)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 26 nearby locations within 150m),poi_ambush_r_shortest_362_cluster_13,"(52.0605573, 4.3294238)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 15 nearby locations within 150m),poi_ambush_r_shortest_388_cluster_14,"(52.0605949, 4.3272088)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 7 nearby locations within 150m),poi_ambush_r_shortest_403_cluster_15,"(52.0596741, 4.3246984)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m),poi_ambush_r_shortest_410_cluster_16,"(52.0589981, 4.3227694)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_shortest_471,"(52.0616032, 4.3158366)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m),poi_ambush_r_shortest_559_cluster_18,"(52.0709357, 4.3009393)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m),poi_ambush_r_shortest_593_cluster_19,"(52.0740555, 4.2969901)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m),poi_ambush_r_shortest_607_cluster_20,"(52.076294, 4.2947385)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 20 nearby locations within 150m),poi_ambush_r_shortest_799_cluster_21,"(52.0963287, 4.3064045)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_shortest_805,"(52.0947601, 4.3083002)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 6 nearby locations within 150m),poi_ambush_r_shortest_838_cluster_23,"(52.0857123, 4.3158429)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 25 nearby locations within 150m),poi_ambush_r_shortest_855_cluster_24,"(52.0834228, 4.317915)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 16 nearby locations within 150m),poi_ambush_r_shortest_869_cluster_25,"(52.0825382, 4.3158343)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 53 nearby locations within 150m),poi_ambush_r_shortest_877_cluster_26,"(52.0817732, 4.3139361)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 41 nearby locations within 150m),poi_ambush_r_shortest_890_cluster_27,"(52.0809974, 4.3121067)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 51 nearby locations within 150m),poi_ambush_r_shortest_900_cluster_28,"(52.0802271, 4.3100681)",,r_shortest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_51,"(51.9702547, 4.4538348)",,r_logical,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_55,"(51.9732704, 4.4514902)",,r_logical,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_125,"(51.992255, 4.4506801)",,r_logical,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_136,"(51.9969616, 4.4522334)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m),poi_ambush_r_logical_141_cluster_33,"(51.9983478, 4.4523086)",,r_logical,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_306,"(52.0207992, 4.4366733)",,r_logical,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_503,"(52.0435123, 4.4160376)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m),poi_ambush_r_logical_621_cluster_36,"(52.0535306, 4.4004661)",,r_logical,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_704,"(52.0654405, 4.3637989)",,r_logical,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_706,"(52.0667976, 4.3599955)",,r_logical,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_707,"(52.0675533, 4.35793)",,r_logical,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_713,"(52.0685957, 4.3549052)",,r_logical,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_761,"(52.0796606, 4.3332578)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m),poi_ambush_r_logical_768_cluster_42,"(52.0815458, 4.3299362)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m),poi_ambush_r_logical_779_cluster_43,"(52.0845147, 4.3260916)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 11 nearby locations within 150m),poi_ambush_r_logical_911_cluster_44,"(52.0983722, 4.3008307)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 5 nearby locations within 150m),poi_ambush_r_logical_920_cluster_45,"(52.0986805, 4.298587)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m),poi_ambush_r_logical_1021_cluster_46,"(52.0956145, 4.2866121)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m),poi_ambush_r_logical_1025_cluster_47,"(52.0932562, 4.2895582)",,r_logical,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_logical_1029,"(52.0918506, 4.2913036)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 5 nearby locations within 150m),poi_ambush_r_logical_1030_cluster_49,"(52.0897899, 4.2938517)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 8 nearby locations within 150m),poi_ambush_r_logical_1035_cluster_50,"(52.0886829, 4.2952018)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 13 nearby locations within 150m),poi_ambush_r_logical_1043_cluster_51,"(52.0874453, 4.296858)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m),poi_ambush_r_logical_1056_cluster_52,"(52.0864332, 4.2984636)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m),poi_ambush_r_logical_1065_cluster_53,"(52.0867521, 4.3006215)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 11 nearby locations within 150m),poi_ambush_r_logical_1074_cluster_54,"(52.0876469, 4.3029267)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 15 nearby locations within 150m),poi_ambush_r_logical_1085_cluster_55,"(52.0882957, 4.3052682)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 13 nearby locations within 150m),poi_ambush_r_logical_1100_cluster_56,"(52.0886932, 4.3075466)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m),poi_ambush_r_logical_1113_cluster_57,"(52.0891731, 4.3099889)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 7 nearby locations within 150m),poi_ambush_r_logical_1122_cluster_58,"(52.0897706, 4.3120433)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 17 nearby locations within 150m),poi_ambush_r_logical_1138_cluster_59,"(52.0874238, 4.3143874)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m),poi_ambush_r_logical_1155_cluster_60,"(52.086722, 4.3123041)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 10 nearby locations within 150m),poi_ambush_r_logical_1164_cluster_61,"(52.0857106, 4.3095745)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 10 nearby locations within 150m),poi_ambush_r_logical_1174_cluster_62,"(52.0847454, 4.3071437)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 7 nearby locations within 150m),poi_ambush_r_logical_1184_cluster_63,"(52.0831784, 4.3079212)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 6 nearby locations within 150m),poi_ambush_r_logical_1191_cluster_64,"(52.0817016, 4.3093869)",,r_logical,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 5 nearby locations within 150m),poi_ambush_r_safest_68_cluster_65,"(51.9663865, 4.4584702)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 13 nearby locations within 150m),poi_ambush_r_safest_73_cluster_66,"(51.967392, 4.4605814)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 7 nearby locations within 150m),poi_ambush_r_safest_86_cluster_67,"(51.9684754, 4.4619025)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 7 nearby locations within 150m),poi_ambush_r_safest_93_cluster_68,"(51.9700964, 4.4619564)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 10 nearby locations within 150m),poi_ambush_r_safest_100_cluster_69,"(51.9714078, 4.4609369)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m),poi_ambush_r_safest_110_cluster_70,"(51.9726969, 4.4600731)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 10 nearby locations within 150m),poi_ambush_r_safest_112_cluster_71,"(51.9752779, 4.4593379)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 8 nearby locations within 150m),poi_ambush_r_safest_122_cluster_72,"(51.9765889, 4.4587091)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m),poi_ambush_r_safest_130_cluster_73,"(51.9777921, 4.4572929)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m),poi_ambush_r_safest_133_cluster_74,"(51.9806909, 4.4557306)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m),poi_ambush_r_safest_135_cluster_75,"(51.9830716, 4.4544423)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_158,"(51.9864834, 4.4615188)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_170,"(51.9895357, 4.4632009)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_180,"(51.9927761, 4.4650968)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_383,"(52.0046391, 4.4271712)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_443,"(52.0020019, 4.4079462)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m),poi_ambush_r_safest_481_cluster_81,"(51.9971735, 4.3907729)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m),poi_ambush_r_safest_493_cluster_82,"(51.9970633, 4.3883621)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_505,"(51.994654, 4.3817053)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_508,"(51.9937654, 4.3780318)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m),poi_ambush_r_safest_510_cluster_85,"(51.9920725, 4.3710827)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_516,"(51.9911946, 4.3674769)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m),poi_ambush_r_safest_518_cluster_87,"(51.990495, 4.3645967)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m),poi_ambush_r_safest_580_cluster_88,"(52.0049127, 4.3468829)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_620,"(52.0164805, 4.334337)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_651,"(52.0270835, 4.3231685)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_758,"(52.0508792, 4.2994163)",,r_safest,ambush_location
+Potential ambush location in constrained road segment.,poi_ambush_r_safest_804,"(52.0614553, 4.2831454)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 10 nearby locations within 150m),poi_ambush_r_safest_855_cluster_93,"(52.0688986, 4.2761763)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m),poi_ambush_r_safest_865_cluster_94,"(52.070457, 4.2756131)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 28 nearby locations within 150m),poi_ambush_r_safest_868_cluster_95,"(52.0722182, 4.2755072)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m),poi_ambush_r_safest_896_cluster_96,"(52.0740192, 4.2754034)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m),poi_ambush_r_safest_898_cluster_97,"(52.0758733, 4.2752928)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 13 nearby locations within 150m),poi_ambush_r_safest_907_cluster_98,"(52.0776064, 4.2763788)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 6 nearby locations within 150m),poi_ambush_r_safest_920_cluster_99,"(52.078997, 4.2769843)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 6 nearby locations within 150m),poi_ambush_r_safest_926_cluster_100,"(52.0802889, 4.2763457)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 15 nearby locations within 150m),poi_ambush_r_safest_932_cluster_101,"(52.0817164, 4.2767143)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 12 nearby locations within 150m),poi_ambush_r_safest_947_cluster_102,"(52.0831467, 4.2758548)",,r_safest,ambush_location
+Potential ambush location in constrained road segment. (Represents cluster of 6 nearby locations within 150m),poi_ambush_r_safest_959_cluster_103,"(52.0847028, 4.2747084)",,r_safest,ambush_location
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_shortest_41_cluster_0,"(51.9687196, 4.4552309)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_244_cluster_1,"(52.0473148, 4.3493421)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_shortest_258_cluster_2,"(52.0497765, 4.3466009)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_278_cluster_3,"(52.0529316, 4.3416641)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_shortest_289_cluster_4,"(52.0554253, 4.339239)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_299_cluster_5,"(52.0568211, 4.3379894)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_shortest_328,"(52.0597768, 4.3347941)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_371_cluster_7,"(52.0609071, 4.3280975)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_shortest_404_cluster_8,"(52.0590983, 4.3231048)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_455_cluster_9,"(52.0612494, 4.3168649)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_shortest_487_cluster_10,"(52.0633613, 4.3132489)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m),poi_surv_r_shortest_499_cluster_11,"(52.0640182, 4.311028)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_506_cluster_12,"(52.0645736, 4.3086221)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_shortest_514,"(52.065153, 4.3065748)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_525_cluster_14,"(52.0662858, 4.304506)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_shortest_528_cluster_15,"(52.0674711, 4.3033939)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m),poi_surv_r_shortest_533_cluster_16,"(52.0686476, 4.3023109)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_542_cluster_17,"(52.069989, 4.3010629)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_568_cluster_18,"(52.0722874, 4.3000106)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_shortest_597,"(52.0740016, 4.296729)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_shortest_619_cluster_20,"(52.0785444, 4.2923228)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_636_cluster_21,"(52.0817363, 4.2879026)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_shortest_662_cluster_22,"(52.0850116, 4.2835903)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 15 nearby locations within 150m),poi_surv_r_shortest_686_cluster_23,"(52.0878895, 4.2804114)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 6 nearby locations within 150m),poi_surv_r_shortest_694_cluster_24,"(52.0886843, 4.2822482)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_712_cluster_25,"(52.0903789, 4.2833534)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 8 nearby locations within 150m),poi_surv_r_shortest_738_cluster_26,"(52.0956981, 4.286514)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m),poi_surv_r_shortest_814_cluster_27,"(52.0926445, 4.3102526)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 8 nearby locations within 150m),poi_surv_r_shortest_821_cluster_28,"(52.0899517, 4.3123943)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 20 nearby locations within 150m),poi_surv_r_shortest_831_cluster_29,"(52.0874326, 4.3144678)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_shortest_836_cluster_30,"(52.0859237, 4.3156736)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m),poi_surv_r_shortest_854_cluster_31,"(52.0834937, 4.3180893)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 13 nearby locations within 150m),poi_surv_r_shortest_868_cluster_32,"(52.0826486, 4.3161237)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 16 nearby locations within 150m),poi_surv_r_shortest_875_cluster_33,"(52.0819172, 4.3142276)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 8 nearby locations within 150m),poi_surv_r_shortest_901_cluster_34,"(52.0802207, 4.310053)",,r_shortest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_logical_60_cluster_35,"(51.9760025, 4.449926)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 6 nearby locations within 150m),poi_surv_r_logical_86_cluster_36,"(51.9810313, 4.4481151)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_logical_119_cluster_37,"(51.9900977, 4.4495119)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_logical_138_cluster_38,"(51.997314, 4.452249)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 11 nearby locations within 150m),poi_surv_r_logical_146_cluster_39,"(52.0000405, 4.452258)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_logical_177_cluster_40,"(52.0029482, 4.450573)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_logical_199_cluster_41,"(52.0046193, 4.4484959)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_logical_215_cluster_42,"(52.0066224, 4.4468714)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_logical_238_cluster_43,"(52.0089239, 4.4451155)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_logical_253,"(52.0119296, 4.443135)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_logical_259_cluster_45,"(52.0134115, 4.4422573)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_272_cluster_46,"(52.0157928, 4.4405236)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_logical_280_cluster_47,"(52.017258, 4.4395253)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_288_cluster_48,"(52.0187593, 4.4385297)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_logical_300_cluster_49,"(52.0209507, 4.4376786)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_315_cluster_50,"(52.0199986, 4.4338581)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_logical_336_cluster_51,"(52.0184946, 4.4281766)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_logical_350_cluster_52,"(52.0198444, 4.4272474)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_365_cluster_53,"(52.0213088, 4.4264456)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_logical_369_cluster_54,"(52.0229353, 4.4252658)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_logical_377_cluster_55,"(52.0241926, 4.4242277)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 11 nearby locations within 150m),poi_surv_r_logical_390_cluster_56,"(52.0256606, 4.4225622)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_logical_413_cluster_57,"(52.0278108, 4.4210593)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_415_cluster_58,"(52.029317, 4.4201357)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_419_cluster_59,"(52.0306285, 4.4193262)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_logical_423_cluster_60,"(52.0320234, 4.4178684)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m),poi_surv_r_logical_425_cluster_61,"(52.0331993, 4.4165248)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_434_cluster_62,"(52.0341963, 4.4143364)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_438_cluster_63,"(52.0349937, 4.4117734)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_442_cluster_64,"(52.0356611, 4.4093602)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_logical_446_cluster_65,"(52.036404, 4.4067885)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 12 nearby locations within 150m),poi_surv_r_logical_449_cluster_66,"(52.0369425, 4.4047478)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_474_cluster_67,"(52.0384619, 4.4048321)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 6 nearby locations within 150m),poi_surv_r_logical_478_cluster_68,"(52.0392172, 4.4069823)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_logical_484_cluster_69,"(52.0402766, 4.4089312)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m),poi_surv_r_logical_501_cluster_70,"(52.043069, 4.4150434)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_510_cluster_71,"(52.0441231, 4.4164798)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m),poi_surv_r_logical_514_cluster_72,"(52.0458676, 4.4153262)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_logical_531_cluster_73,"(52.0476239, 4.4141523)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_logical_536_cluster_74,"(52.0494893, 4.4128568)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_logical_554_cluster_75,"(52.0511611, 4.4115168)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_logical_581_cluster_76,"(52.0527524, 4.4028038)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_logical_597_cluster_77,"(52.0534758, 4.3979868)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_622_cluster_78,"(52.053738, 4.4005884)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_logical_652,"(52.055147, 4.4008774)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_logical_758,"(52.0785218, 4.3347822)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_logical_794,"(52.0866726, 4.3223722)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_logical_803_cluster_82,"(52.0880097, 4.3210231)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_logical_814,"(52.0865898, 4.3176885)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_logical_857_cluster_84,"(52.0965602, 4.307039)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_1025_cluster_85,"(52.0932562, 4.2895582)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_logical_1029,"(52.0918506, 4.2913036)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_logical_1030_cluster_87,"(52.0897899, 4.2938517)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_logical_1035_cluster_88,"(52.0886829, 4.2952018)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_logical_1060,"(52.086037, 4.2985282)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_logical_1078,"(52.0877653, 4.3032758)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m),poi_surv_r_logical_1155_cluster_91,"(52.086722, 4.3123041)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_1164_cluster_92,"(52.0857106, 4.3095745)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 10 nearby locations within 150m),poi_surv_r_logical_1174_cluster_93,"(52.0847454, 4.3071437)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m),poi_surv_r_logical_1184_cluster_94,"(52.0831784, 4.3079212)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_logical_1191_cluster_95,"(52.0817016, 4.3093869)",,r_logical,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m),poi_surv_r_safest_40_cluster_96,"(51.9664756, 4.4577407)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 13 nearby locations within 150m),poi_surv_r_safest_73_cluster_97,"(51.967392, 4.4605814)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m),poi_surv_r_safest_86_cluster_98,"(51.9684754, 4.4619025)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 6 nearby locations within 150m),poi_surv_r_safest_93_cluster_99,"(51.9700964, 4.4619564)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m),poi_surv_r_safest_102_cluster_100,"(51.9715031, 4.460763)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_111,"(51.9732273, 4.4599135)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_112,"(51.9752779, 4.4593379)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m),poi_surv_r_safest_123_cluster_103,"(51.9765807, 4.4586057)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_safest_130_cluster_104,"(51.9777921, 4.4572929)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_133_cluster_105,"(51.9806909, 4.4557306)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_safest_135_cluster_106,"(51.9830716, 4.4544423)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_165,"(51.9886291, 4.4626924)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 8 nearby locations within 150m),poi_surv_r_safest_182_cluster_108,"(51.9928921, 4.465219)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_213,"(51.9937053, 4.4623348)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_safest_214_cluster_110,"(51.9954316, 4.4574504)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_safest_292_cluster_111,"(52.0013642, 4.4515569)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_safest_320_cluster_112,"(51.9995605, 4.4399731)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_safest_360_cluster_113,"(52.0044254, 4.4309531)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m),poi_surv_r_safest_391_cluster_114,"(52.0049628, 4.4190073)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_468_cluster_115,"(51.9981515, 4.3974066)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_485,"(51.9972033, 4.3901241)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_532,"(51.9891675, 4.3585156)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_545,"(51.9872381, 4.3522144)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_568_cluster_119,"(52.0005862, 4.3485177)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_583_cluster_120,"(52.0068457, 4.3447082)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_595,"(52.0103869, 4.3405676)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_601_cluster_122,"(52.0132741, 4.3384851)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_628_cluster_123,"(52.018357, 4.332378)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_637_cluster_124,"(52.0228194, 4.3276682)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_647,"(52.0259175, 4.3243247)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_654,"(52.027612, 4.3226555)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_664,"(52.0326478, 4.3177048)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_safest_672_cluster_128,"(52.0342365, 4.316145)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_705_cluster_129,"(52.0385482, 4.3119019)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_719_cluster_130,"(52.0427603, 4.3083137)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_735_cluster_131,"(52.0473138, 4.3036347)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_safest_751_cluster_132,"(52.0503878, 4.2998663)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_770_cluster_133,"(52.0544033, 4.296336)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_784_cluster_134,"(52.0590693, 4.292514)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_791,"(52.0595856, 4.2902265)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_safest_792_cluster_136,"(52.0608718, 4.2850446)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m),poi_surv_r_safest_809_cluster_137,"(52.0617381, 4.2832961)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_831_cluster_138,"(52.0653885, 4.2794455)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_846_cluster_139,"(52.0685474, 4.2765054)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m),poi_surv_r_safest_870_cluster_140,"(52.0723262, 4.2755045)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_901,"(52.0760038, 4.2753286)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_safest_912_cluster_142,"(52.078569, 4.2770336)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 10 nearby locations within 150m),poi_surv_r_safest_939_cluster_143,"(52.0823665, 4.277197)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_safest_964_cluster_144,"(52.08533, 4.2741521)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m),poi_surv_r_safest_971_cluster_145,"(52.086663, 4.2772723)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 6 nearby locations within 150m),poi_surv_r_safest_1084_cluster_146,"(52.0986337, 4.3001824)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m),poi_surv_r_safest_1109_cluster_147,"(52.0986739, 4.3025714)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_1113,"(52.0976911, 4.3049443)",,r_safest,surveillance_point
+Major road intersection suitable for surveillance.,poi_surv_r_safest_1125,"(52.0942466, 4.3089249)",,r_safest,surveillance_point
 "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance.",poi_obs_cp_4593416910,"(51.9578975, 4.4351556)",cp_4593416910,,enemy_observation_point
 "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)",poi_obs_cp_11003276648_cluster_1_cluster_1,"(51.9602748, 4.4410809)",cp_11003276648_cluster_1,,enemy_observation_point
 "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance.",poi_obs_cp_10969424505_cluster_3,"(51.9614833, 4.4439375)",cp_10969424505_cluster_3,,enemy_observation_point

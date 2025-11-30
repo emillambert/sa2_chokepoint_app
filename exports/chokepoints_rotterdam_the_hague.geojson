@@ -212,8 +212,8 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "common_to_all_routes",
-          "major_intersection"
+          "major_intersection",
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 3 routes)"
       }
@@ -237,8 +237,8 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "common_to_all_routes",
-          "bridge_or_viaduct"
+          "bridge_or_viaduct",
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 5 nearby chokepoints covering 3 routes)"
       }
@@ -286,9 +286,9 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "common_to_all_routes",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 11 nearby chokepoints covering 3 routes)"
       }
@@ -311,8 +311,8 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
-          "major_intersection",
-          "shared_by_multiple_routes"
+          "shared_by_multiple_routes",
+          "major_intersection"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 2 routes)"
       }
@@ -335,9 +335,9 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "dense_or_complex_urban_area",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "dense_or_complex_urban_area"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 6 nearby chokepoints covering 2 routes)"
       }
@@ -360,9 +360,9 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "dense_or_complex_urban_area",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "dense_or_complex_urban_area"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 10 nearby chokepoints covering 2 routes)"
       }
@@ -385,8 +385,8 @@
         ],
         "vulnerability_score": 6.0,
         "factors": [
-          "dense_or_complex_urban_area",
-          "shared_by_multiple_routes"
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 9 nearby chokepoints covering 2 routes)"
       }
@@ -410,10 +410,10 @@
         ],
         "vulnerability_score": 9.0,
         "factors": [
-          "dense_or_complex_urban_area",
-          "common_to_all_routes",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "dense_or_complex_urban_area",
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 3 routes)"
       }
@@ -437,8 +437,8 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
-          "common_to_all_routes",
-          "dense_or_complex_urban_area"
+          "dense_or_complex_urban_area",
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 6 nearby chokepoints covering 3 routes)"
       }
@@ -462,8 +462,8 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
-          "common_to_all_routes",
-          "dense_or_complex_urban_area"
+          "dense_or_complex_urban_area",
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 3 routes)"
       }
@@ -487,8 +487,8 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
-          "common_to_all_routes",
-          "dense_or_complex_urban_area"
+          "dense_or_complex_urban_area",
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 6 nearby chokepoints covering 3 routes)"
       }
@@ -512,8 +512,8 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
-          "common_to_all_routes",
-          "dense_or_complex_urban_area"
+          "dense_or_complex_urban_area",
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 3 routes)"
       }
@@ -537,10 +537,10 @@
         ],
         "vulnerability_score": 9.0,
         "factors": [
-          "common_to_all_routes",
-          "dense_or_complex_urban_area",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "dense_or_complex_urban_area",
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 16 nearby chokepoints covering 3 routes)"
       }
@@ -563,8 +563,8 @@
         ],
         "vulnerability_score": 6.0,
         "factors": [
-          "dense_or_complex_urban_area",
-          "shared_by_multiple_routes"
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 6 nearby chokepoints covering 2 routes)"
       }
@@ -679,8 +679,8 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
-          "major_intersection",
-          "shared_by_multiple_routes"
+          "shared_by_multiple_routes",
+          "major_intersection"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 2 routes)"
       }
@@ -726,9 +726,9 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "dense_or_complex_urban_area",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "dense_or_complex_urban_area"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 7 nearby chokepoints covering 2 routes)"
       }
@@ -751,8 +751,8 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
-          "major_intersection",
-          "shared_by_multiple_routes"
+          "shared_by_multiple_routes",
+          "major_intersection"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 2 nearby chokepoints covering 2 routes)"
       }
@@ -775,8 +775,8 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
-          "major_intersection",
-          "shared_by_multiple_routes"
+          "shared_by_multiple_routes",
+          "major_intersection"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 9 nearby chokepoints covering 2 routes)"
       }
@@ -800,10 +800,10 @@
         ],
         "vulnerability_score": 9.0,
         "factors": [
-          "common_to_all_routes",
-          "dense_or_complex_urban_area",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "dense_or_complex_urban_area",
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 8 nearby chokepoints covering 3 routes)"
       }
@@ -851,10 +851,10 @@
         ],
         "vulnerability_score": 9.0,
         "factors": [
-          "common_to_all_routes",
-          "dense_or_complex_urban_area",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "dense_or_complex_urban_area",
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 6 nearby chokepoints covering 3 routes)"
       }
@@ -900,9 +900,9 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
-          "bridge_or_viaduct",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "bridge_or_viaduct"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 7 nearby chokepoints covering 2 routes)"
       }
@@ -971,10 +971,10 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "dense_or_complex_urban_area",
-          "bridge_or_viaduct",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "bridge_or_viaduct",
+          "dense_or_complex_urban_area"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 13 nearby chokepoints covering 2 routes)"
       }
@@ -997,9 +997,9 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "dense_or_complex_urban_area",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "dense_or_complex_urban_area"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 4 nearby chokepoints covering 2 routes)"
       }
@@ -1022,9 +1022,9 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "dense_or_complex_urban_area",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "dense_or_complex_urban_area"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 9 nearby chokepoints covering 2 routes)"
       }
@@ -1048,10 +1048,10 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "dense_or_complex_urban_area",
-          "common_to_all_routes",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "dense_or_complex_urban_area",
+          "common_to_all_routes"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 15 nearby chokepoints covering 3 routes)"
       }
@@ -1075,9 +1075,9 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
+          "shared_by_multiple_routes",
           "dense_or_complex_urban_area",
-          "common_to_all_routes",
-          "shared_by_multiple_routes"
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 13 nearby chokepoints covering 3 routes)"
       }
@@ -1101,10 +1101,10 @@
         ],
         "vulnerability_score": 9.0,
         "factors": [
-          "dense_or_complex_urban_area",
-          "common_to_all_routes",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "dense_or_complex_urban_area",
+          "common_to_all_routes"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 20 nearby chokepoints covering 3 routes)"
       }
@@ -1127,10 +1127,10 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "dense_or_complex_urban_area",
-          "bridge_or_viaduct",
+          "shared_by_multiple_routes",
           "major_intersection",
-          "shared_by_multiple_routes"
+          "bridge_or_viaduct",
+          "dense_or_complex_urban_area"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 2 nearby chokepoints covering 2 routes)"
       }
@@ -1153,8 +1153,8 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
-          "bridge_or_viaduct",
-          "shared_by_multiple_routes"
+          "shared_by_multiple_routes",
+          "bridge_or_viaduct"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 2 nearby chokepoints covering 2 routes)"
       }
@@ -1177,8 +1177,8 @@
         ],
         "vulnerability_score": 7.0,
         "factors": [
-          "major_intersection",
-          "shared_by_multiple_routes"
+          "shared_by_multiple_routes",
+          "major_intersection"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 4 nearby chokepoints covering 2 routes)"
       }
