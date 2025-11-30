@@ -212,8 +212,8 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "major_intersection",
-          "common_to_all_routes"
+          "common_to_all_routes",
+          "major_intersection"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 3 routes)"
       }
@@ -237,8 +237,8 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "bridge_or_viaduct",
-          "common_to_all_routes"
+          "common_to_all_routes",
+          "bridge_or_viaduct"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 5 nearby chokepoints covering 3 routes)"
       }
@@ -286,9 +286,9 @@
         ],
         "vulnerability_score": 8.0,
         "factors": [
+          "common_to_all_routes",
           "shared_by_multiple_routes",
-          "major_intersection",
-          "common_to_all_routes"
+          "major_intersection"
         ],
         "description": "Node used by 3 of 3 routes. (Merged cluster of 11 nearby chokepoints covering 3 routes)"
       }
@@ -322,815 +322,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2804114,
-          52.0878895
-        ]
-      },
-      "properties": {
-        "id": "cp_9933716017_cluster_13",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 8.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "dense_or_complex_urban_area"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 6 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2819103,
-          52.0885439
-        ]
-      },
-      "properties": {
-        "id": "cp_1200926263_cluster_14",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 8.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "dense_or_complex_urban_area"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 10 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2830963,
-          52.089194
-        ]
-      },
-      "properties": {
-        "id": "cp_1200840342_cluster_15",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 6.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "dense_or_complex_urban_area"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 9 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2833534,
-          52.0903789
-        ]
-      },
-      "properties": {
-        "id": "cp_1200840426_cluster_16",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 9.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "dense_or_complex_urban_area",
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 3 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 3 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2836621,
-          52.0912625
-        ]
-      },
-      "properties": {
-        "id": "cp_2752138589_cluster_17",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 7.0,
-        "factors": [
-          "dense_or_complex_urban_area",
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 3 of 3 routes. (Merged cluster of 6 nearby chokepoints covering 3 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.284104,
-          52.0922915
-        ]
-      },
-      "properties": {
-        "id": "cp_3354971174_cluster_18",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 7.0,
-        "factors": [
-          "dense_or_complex_urban_area",
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 3 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 3 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.284582,
-          52.0932073
-        ]
-      },
-      "properties": {
-        "id": "cp_12416488012_cluster_19",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 7.0,
-        "factors": [
-          "dense_or_complex_urban_area",
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 3 of 3 routes. (Merged cluster of 6 nearby chokepoints covering 3 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2851684,
-          52.0942122
-        ]
-      },
-      "properties": {
-        "id": "cp_1200840367_cluster_20",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 7.0,
-        "factors": [
-          "dense_or_complex_urban_area",
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 3 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 3 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.286514,
-          52.0956981
-        ]
-      },
-      "properties": {
-        "id": "cp_1200840398_cluster_21",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 9.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "dense_or_complex_urban_area",
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 3 of 3 routes. (Merged cluster of 16 nearby chokepoints covering 3 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2870293,
-          52.0959243
-        ]
-      },
-      "properties": {
-        "id": "cp_3354971183_cluster_22",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 6.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "dense_or_complex_urban_area"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 6 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2887152,
-          52.0964647
-        ]
-      },
-      "properties": {
-        "id": "cp_1200840533_cluster_23",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 5.0,
-        "factors": [
-          "shared_by_multiple_routes"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2904829,
-          52.0968817
-        ]
-      },
-      "properties": {
-        "id": "cp_1200840371_cluster_24",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 5.0,
-        "factors": [
-          "shared_by_multiple_routes"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.291896,
-          52.0971905
-        ]
-      },
-      "properties": {
-        "id": "cp_1200840316_cluster_25",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 5.0,
-        "factors": [
-          "shared_by_multiple_routes"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 2 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.293638,
-          52.0975686
-        ]
-      },
-      "properties": {
-        "id": "cp_1200840418_cluster_26",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 5.0,
-        "factors": [
-          "shared_by_multiple_routes"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2961931,
-          52.098189
-        ]
-      },
-      "properties": {
-        "id": "cp_1200785922_cluster_27",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 7.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2975387,
-          52.0984154
-        ]
-      },
-      "properties": {
-        "id": "cp_1857858967_cluster_28",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 5.0,
-        "factors": [
-          "shared_by_multiple_routes"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 6 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3001076,
-          52.0983817
-        ]
-      },
-      "properties": {
-        "id": "cp_2175480167_cluster_29",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 8.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "dense_or_complex_urban_area"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 7 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3089249,
-          52.0942466
-        ]
-      },
-      "properties": {
-        "id": "cp_45220485_cluster_30",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 7.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 2 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3102526,
-          52.0926445
-        ]
-      },
-      "properties": {
-        "id": "cp_1164136121_cluster_31",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 7.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 9 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3124435,
-          52.089881
-        ]
-      },
-      "properties": {
-        "id": "cp_10698110627_cluster_32",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 9.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "dense_or_complex_urban_area",
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 3 of 3 routes. (Merged cluster of 8 nearby chokepoints covering 3 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3129994,
-          52.0891608
-        ]
-      },
-      "properties": {
-        "id": "cp_9496445674",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 6.0,
-        "factors": [
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 3 of 3 routes. Factors: common_to_all_routes."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3144678,
-          52.0874326
-        ]
-      },
-      "properties": {
-        "id": "cp_45188005_cluster_34",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 9.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "dense_or_complex_urban_area",
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 3 of 3 routes. (Merged cluster of 6 nearby chokepoints covering 3 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3146993,
-          52.0871428
-        ]
-      },
-      "properties": {
-        "id": "cp_1165671780",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 5.0,
-        "factors": [
-          "shared_by_multiple_routes"
-        ],
-        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3156736,
-          52.0859237
-        ]
-      },
-      "properties": {
-        "id": "cp_1164135929_cluster_36",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 7.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "bridge_or_viaduct"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 7 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3161861,
-          52.0853206
-        ]
-      },
-      "properties": {
-        "id": "cp_1164136099_cluster_37",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 5.0,
-        "factors": [
-          "shared_by_multiple_routes"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 4 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3169613,
-          52.0844894
-        ]
-      },
-      "properties": {
-        "id": "cp_2478059048_cluster_38",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 5.0,
-        "factors": [
-          "shared_by_multiple_routes"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 5 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3180893,
-          52.0834937
-        ]
-      },
-      "properties": {
-        "id": "cp_1164136095_cluster_39",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 8.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "bridge_or_viaduct",
-          "dense_or_complex_urban_area"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 13 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3161237,
-          52.0826486
-        ]
-      },
-      "properties": {
-        "id": "cp_6519060615_cluster_40",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 8.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "dense_or_complex_urban_area"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 4 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.314885,
-          52.0821657
-        ]
-      },
-      "properties": {
-        "id": "cp_12592889085_cluster_41",
-        "type": "intersection",
-        "routes_affected": [
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 8.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "dense_or_complex_urban_area"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 9 nearby chokepoints covering 2 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3137276,
-          52.0815518
-        ]
-      },
-      "properties": {
-        "id": "cp_6519042432_cluster_42",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 8.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "dense_or_complex_urban_area",
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 2 of 3 routes. (Merged cluster of 15 nearby chokepoints covering 3 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.311329,
-          52.0806463
-        ]
-      },
-      "properties": {
-        "id": "cp_6519030845_cluster_43",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 7.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "dense_or_complex_urban_area",
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 3 of 3 routes. (Merged cluster of 13 nearby chokepoints covering 3 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3098752,
-          52.0801418
-        ]
-      },
-      "properties": {
-        "id": "cp_442717504_cluster_44",
-        "type": "intersection",
-        "routes_affected": [
-          "r_logical",
-          "r_safest",
-          "r_shortest"
-        ],
-        "vulnerability_score": 9.0,
-        "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
-          "dense_or_complex_urban_area",
-          "common_to_all_routes"
-        ],
-        "description": "Node used by 3 of 3 routes. (Merged cluster of 20 nearby chokepoints covering 3 routes)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           4.4522566,
           51.9974458
         ]
       },
       "properties": {
-        "id": "cp_345616183_cluster_45",
+        "id": "cp_345616183_cluster_13",
         "type": "intersection",
         "routes_affected": [
-          "r_logical",
-          "r_safest"
+          "r_safest",
+          "r_shortest"
         ],
         "vulnerability_score": 8.0,
         "factors": [
-          "shared_by_multiple_routes",
-          "major_intersection",
           "bridge_or_viaduct",
-          "dense_or_complex_urban_area"
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area",
+          "major_intersection"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 2 nearby chokepoints covering 2 routes)"
       }
@@ -1145,11 +353,11 @@
         ]
       },
       "properties": {
-        "id": "cp_1678692864_cluster_46",
+        "id": "cp_1678692864_cluster_14",
         "type": "intersection",
         "routes_affected": [
-          "r_logical",
-          "r_safest"
+          "r_safest",
+          "r_shortest"
         ],
         "vulnerability_score": 7.0,
         "factors": [
@@ -1169,11 +377,11 @@
         ]
       },
       "properties": {
-        "id": "cp_1495608287_cluster_47",
+        "id": "cp_1495608287_cluster_15",
         "type": "intersection",
         "routes_affected": [
-          "r_logical",
-          "r_safest"
+          "r_safest",
+          "r_shortest"
         ],
         "vulnerability_score": 7.0,
         "factors": [
@@ -1181,6 +389,335 @@
           "major_intersection"
         ],
         "description": "Node used by 2 of 3 routes. (Merged cluster of 4 nearby chokepoints covering 2 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3054863,
+          52.0840864
+        ]
+      },
+      "properties": {
+        "id": "cp_45171953_cluster_16",
+        "type": "intersection",
+        "routes_affected": [
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area",
+          "major_intersection"
+        ],
+        "description": "Node used by 2 of 3 routes. (Merged cluster of 7 nearby chokepoints covering 2 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2885914,
+          52.0928302
+        ]
+      },
+      "properties": {
+        "id": "cp_30216941_cluster_17",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 9.0,
+        "factors": [
+          "common_to_all_routes",
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area",
+          "major_intersection"
+        ],
+        "description": "Node used by 3 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 3 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.287391,
+          52.0938187
+        ]
+      },
+      "properties": {
+        "id": "cp_12453613708_cluster_18",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 9.0,
+        "factors": [
+          "common_to_all_routes",
+          "dense_or_complex_urban_area",
+          "major_intersection"
+        ],
+        "description": "Node used by 3 of 3 routes. (Merged cluster of 10 nearby chokepoints covering 3 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2850859,
+          52.0929787
+        ]
+      },
+      "properties": {
+        "id": "cp_7080075359_cluster_19",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 9.0,
+        "factors": [
+          "common_to_all_routes",
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area",
+          "major_intersection"
+        ],
+        "description": "Node used by 3 of 3 routes. (Merged cluster of 26 nearby chokepoints covering 3 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2857472,
+          52.0950197
+        ]
+      },
+      "properties": {
+        "id": "cp_1200840369_cluster_20",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area",
+          "major_intersection"
+        ],
+        "description": "Node used by 2 of 3 routes. (Merged cluster of 4 nearby chokepoints covering 3 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.286514,
+          52.0956981
+        ]
+      },
+      "properties": {
+        "id": "cp_1200840398_cluster_21",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_shortest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area",
+          "major_intersection"
+        ],
+        "description": "Node used by 2 of 3 routes. (Merged cluster of 7 nearby chokepoints covering 2 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2985282,
+          52.086037
+        ]
+      },
+      "properties": {
+        "id": "cp_45180990",
+        "type": "intersection",
+        "routes_affected": [
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "major_intersection",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, major_intersection, dense_or_complex_urban_area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3146882,
+          52.0820929
+        ]
+      },
+      "properties": {
+        "id": "cp_6519042443_cluster_23",
+        "type": "intersection",
+        "routes_affected": [
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area",
+          "major_intersection"
+        ],
+        "description": "Node used by 2 of 3 routes. (Merged cluster of 5 nearby chokepoints covering 2 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3157432,
+          52.0809327
+        ]
+      },
+      "properties": {
+        "id": "cp_45159260_cluster_24",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest",
+          "r_shortest"
+        ],
+        "vulnerability_score": 9.0,
+        "factors": [
+          "common_to_all_routes",
+          "dense_or_complex_urban_area",
+          "major_intersection"
+        ],
+        "description": "Node used by 3 of 3 routes. (Merged cluster of 5 nearby chokepoints covering 3 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2844103,
+          52.0933849
+        ]
+      },
+      "properties": {
+        "id": "cp_2189094533_cluster_25",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 6.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. (Merged cluster of 4 nearby chokepoints covering 2 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2836425,
+          52.0917596
+        ]
+      },
+      "properties": {
+        "id": "cp_1200840357_cluster_26",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 8.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area",
+          "major_intersection"
+        ],
+        "description": "Node used by 2 of 3 routes. (Merged cluster of 14 nearby chokepoints covering 2 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2855986,
+          52.0918579
+        ]
+      },
+      "properties": {
+        "id": "cp_7080075283_cluster_27",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 6.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. (Merged cluster of 5 nearby chokepoints covering 2 routes)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.287,
+          52.0922
+        ]
+      },
+      "properties": {
+        "id": "cp_45210514",
+        "type": "intersection",
+        "routes_affected": [
+          "r_logical",
+          "r_safest"
+        ],
+        "vulnerability_score": 6.0,
+        "factors": [
+          "shared_by_multiple_routes",
+          "dense_or_complex_urban_area"
+        ],
+        "description": "Node used by 2 of 3 routes. Factors: shared_by_multiple_routes, dense_or_complex_urban_area."
       }
     }
   ]

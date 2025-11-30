@@ -6,14 +6,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.569297,
-          52.2556513
+          4.7598046,
+          52.3097933
         ]
       },
       "properties": {
         "id": "SDT1",
         "type": "SDT",
-        "assigned_to": "cp_4254919868_cluster_12",
+        "assigned_to": "cp_6393652917_cluster_2",
         "role_description": "Advance team: reconnaissance and early road closure at the highest-risk chokepoint."
       }
     },
@@ -22,14 +22,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.5761073,
-          52.2726471
+          4.7499641,
+          52.3076512
         ]
       },
       "properties": {
         "id": "SDT2",
         "type": "SDT",
-        "assigned_to": "cp_6716420239_cluster_0",
+        "assigned_to": "cp_46114820_cluster_3",
         "role_description": "Static protection team securing approaches to a high-risk chokepoint."
       }
     },
@@ -38,14 +38,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.5749572,
-          52.2719926
+          4.2885914,
+          52.0928302
         ]
       },
       "properties": {
         "id": "SDT3",
         "type": "SDT",
-        "assigned_to": "cp_45971394_cluster_1",
+        "assigned_to": "cp_30216941_cluster_26",
         "role_description": "Rear security team covering potential follow-up attacks near a critical chokepoint."
       }
     },
@@ -54,14 +54,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.5723015,
-          52.2704477
+          4.287391,
+          52.0938187
         ]
       },
       "properties": {
         "id": "SDT4",
         "type": "SDT",
-        "assigned_to": "cp_45965771_cluster_2",
+        "assigned_to": "cp_12453613708_cluster_28",
         "role_description": "Escort team integrated in the motorcade to respond at chokepoints."
       }
     },
@@ -70,14 +70,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.5699514,
-          52.2690843
+          4.2850859,
+          52.0929787
         ]
       },
       "properties": {
         "id": "SDT5",
         "type": "SDT",
-        "assigned_to": "cp_5486550425_cluster_3",
+        "assigned_to": "cp_7080075359_cluster_29",
         "role_description": "Reserve team positioned to reinforce any chokepoint if threatened."
       }
     },
@@ -86,14 +86,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.5688675,
-          52.2683511
+          4.3064293,
+          52.0846884
         ]
       },
       "properties": {
         "id": "SDT6",
         "type": "SDT",
-        "assigned_to": "cp_13002009742_cluster_4",
+        "assigned_to": "cp_6407089183_cluster_35",
         "role_description": "Quick reaction force covering alternative evacuation routes."
       }
     },
@@ -102,14 +102,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.569297,
-          52.2556513
+          4.7598046,
+          52.3097933
         ]
       },
       "properties": {
         "id": "CS1",
         "type": "CS",
-        "assigned_to": "cp_4254919868_cluster_12",
+        "assigned_to": "cp_6393652917_cluster_2",
         "role_description": "Counter-sniper overwatch on the single most vulnerable chokepoint."
       }
     },
@@ -118,14 +118,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.5761073,
-          52.2726471
+          4.7499641,
+          52.3076512
         ]
       },
       "properties": {
         "id": "CS2",
         "type": "CS",
-        "assigned_to": "cp_6716420239_cluster_0",
+        "assigned_to": "cp_46114820_cluster_3",
         "role_description": "Counter-sniper team covering the primary conference venue approach."
       }
     },
@@ -134,14 +134,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.5749572,
-          52.2719926
+          4.2885914,
+          52.0928302
         ]
       },
       "properties": {
         "id": "CS3",
         "type": "CS",
-        "assigned_to": "cp_45971394_cluster_1",
+        "assigned_to": "cp_30216941_cluster_26",
         "role_description": "Counter-sniper team covering the reception venue and surrounding access routes."
       }
     }

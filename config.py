@@ -25,14 +25,14 @@ class Scenario:
 
 SCHIPHOL_SCENARIO = Scenario(
     name="schiphol",
-    start=(52.3090, 4.7640),  # Schiphol Airport main terminal (Schiphol Plaza)
+    start=(52.3101, 4.7648),  # Schiphol Airport terminal building interior
     via=(52.0930, 4.2867),  # World Forum, The Hague (approx)
     end=(52.0809, 4.3146),  # Mauritshuis, The Hague (approx)
 )
 
 ROTTERDAM_THE_HAGUE_SCENARIO = Scenario(
     name="rotterdam_the_hague",
-    start=(51.9567, 4.4378),  # Rotterdam/The Hague Airport main terminal
+    start=(51.9567, 4.4378),  # Rotterdam Airportplein 60 terminal building interior
     via=SCHIPHOL_SCENARIO.via,
     end=SCHIPHOL_SCENARIO.end,
 )

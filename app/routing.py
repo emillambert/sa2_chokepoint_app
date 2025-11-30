@@ -34,16 +34,20 @@ def build_graph(center: LatLon, dist_m: int = 20000, scenario_name: str = "defau
     the user runs the app multiple times.
     """
 
-    # Use scenario-specific graph files
-    PRECOMPUTED_GRAPH_FILE = BASE_DIR / "precomputed" / f"{scenario_name}_graph.graphml"
-    GRAPH_CACHE_FILE = CACHE_DIR / f"{scenario_name}_graph.graphml"
+    # Priority 1: Unified graph (covers everything - new approach)
+    UNIFIED_GRAPH_FILE = BASE_DIR / "precomputed" / "unified_graph.graphml"
+    if UNIFIED_GRAPH_FILE.exists():
+        logger.info("Loading unified road network from %s", UNIFIED_GRAPH_FILE)
+        return ox.load_graphml(UNIFIED_GRAPH_FILE)
 
-    # Priority 1: Check repository-included precomputed graph (instant load)
+    # Priority 2: Scenario-specific precomputed graphs (fallback)
+    PRECOMPUTED_GRAPH_FILE = BASE_DIR / "precomputed" / f"{scenario_name}_graph.graphml"
     if PRECOMPUTED_GRAPH_FILE.exists():
-        logger.info("Loading precomputed road network from %s", PRECOMPUTED_GRAPH_FILE)
+        logger.info("Loading scenario-specific graph from %s", PRECOMPUTED_GRAPH_FILE)
         return ox.load_graphml(PRECOMPUTED_GRAPH_FILE)
 
-    # Priority 2: Check runtime cache
+    # Priority 3: Runtime cache
+    GRAPH_CACHE_FILE = CACHE_DIR / f"{scenario_name}_graph.graphml"
     if GRAPH_CACHE_FILE.exists():
         logger.info("Loading cached road network from %s", GRAPH_CACHE_FILE)
         return ox.load_graphml(GRAPH_CACHE_FILE)

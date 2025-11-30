@@ -6,16 +6,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.4527599,
-          51.9667922
+          4.4268111,
+          52.0239917
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_20_cluster_0",
+        "id": "poi_ambush_r_shortest_349",
         "type": "ambush_location",
         "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m)"
+        "description": "High-threat ambush location (threat score: 4.8). Motorcade speed: 9 km/h in living_street segment.",
+        "priority_score": 4.833333333333334
       }
     },
     {
@@ -23,16 +24,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.4241184,
-          51.9540581
+          4.4266064,
+          52.024193
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_94_cluster_1",
+        "id": "poi_ambush_r_shortest_350",
         "type": "ambush_location",
         "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-threat ambush location (threat score: 4.8). Motorcade speed: 9 km/h in living_street segment.",
+        "priority_score": 4.833333333333334
       }
     },
     {
@@ -40,16 +42,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.4144271,
-          51.9549903
+          4.4263871,
+          52.0243939
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_109_cluster_2",
+        "id": "poi_ambush_r_shortest_351",
         "type": "ambush_location",
         "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m)"
+        "description": "High-threat ambush location (threat score: 4.8). Motorcade speed: 9 km/h in living_street segment.",
+        "priority_score": 4.833333333333334
       }
     },
     {
@@ -57,16 +60,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.4034618,
-          51.9666278
+          4.4261487,
+          52.0246206
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_130",
+        "id": "poi_ambush_r_shortest_352",
         "type": "ambush_location",
         "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
+        "description": "High-threat ambush location (threat score: 4.8). Motorcade speed: 9 km/h in living_street segment.",
+        "priority_score": 4.833333333333334
       }
     },
     {
@@ -74,16 +78,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3930982,
-          51.9871455
+          4.4261113,
+          52.0246562
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_148",
+        "id": "poi_ambush_r_shortest_353",
         "type": "ambush_location",
         "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
+        "description": "High-threat ambush location (threat score: 4.8). Motorcade speed: 9 km/h in living_street segment.",
+        "priority_score": 4.833333333333334
       }
     },
     {
@@ -91,16 +96,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3833851,
-          52.006786
+          4.4258665,
+          52.0248891
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_162",
+        "id": "poi_ambush_r_shortest_354",
         "type": "ambush_location",
         "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
+        "description": "High-threat ambush location (threat score: 4.8). Motorcade speed: 9 km/h in living_street segment.",
+        "priority_score": 4.833333333333334
       }
     },
     {
@@ -108,16 +114,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3775716,
-          52.0117827
+          4.4254454,
+          52.0247324
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_166",
+        "id": "poi_ambush_r_shortest_355_cluster_0",
         "type": "ambush_location",
         "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
+        "description": "High-threat ambush location (threat score: 4.8). Motorcade speed: 9 km/h in living_street segment. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.833333333333334
       }
     },
     {
@@ -125,16 +132,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.373093,
-          52.0156158
+          4.301296,
+          52.0827446
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_170",
+        "id": "poi_ambush_r_safest_1230",
         "type": "ambush_location",
-        "related_route": "r_shortest",
+        "related_route": "r_safest",
         "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
+        "description": "High-threat ambush location (threat score: 4.6). Motorcade speed: 10 km/h in residential segment.",
+        "priority_score": 4.625
       }
     },
     {
@@ -142,373 +150,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3663886,
-          52.021375
+          4.2838556,
+          52.0917249
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_shortest_174",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3525299,
-          52.0394116
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_209_cluster_9",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3433586,
-          52.0518173
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_271_cluster_10",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3348989,
-          52.0597912
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_323_cluster_11",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 22 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3326125,
-          52.0598592
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_345_cluster_12",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 17 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3294238,
-          52.0605573
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_362_cluster_13",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 26 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3272088,
-          52.0605949
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_388_cluster_14",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 15 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3246984,
-          52.0596741
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_403_cluster_15",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3227694,
-          52.0589981
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_410_cluster_16",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3158366,
-          52.0616032
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_471",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3009393,
-          52.0709357
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_559_cluster_18",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2969901,
-          52.0740555
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_593_cluster_19",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2947385,
-          52.076294
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_607_cluster_20",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3064045,
-          52.0963287
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_799_cluster_21",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 20 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3083002,
-          52.0947601
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_805",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3158429,
-          52.0857123
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_838_cluster_23",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 6 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.317915,
-          52.0834228
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_855_cluster_24",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 25 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3158343,
-          52.0825382
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_869_cluster_25",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 16 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3139361,
-          52.0817732
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_877_cluster_26",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 53 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3121067,
-          52.0809974
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_890_cluster_27",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 41 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3100681,
-          52.0802271
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_shortest_900_cluster_28",
-        "type": "ambush_location",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 51 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4538348,
-          51.9702547
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_51",
+        "id": "poi_ambush_r_logical_618_cluster_2",
         "type": "ambush_location",
         "related_route": "r_logical",
         "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
+        "description": "High-threat ambush location (threat score: 4.0). Motorcade speed: 12 km/h in residential segment. (Represents cluster of 15 nearby threat locations)",
+        "priority_score": 4.0
       }
     },
     {
@@ -516,1274 +168,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.4514902,
-          51.9732704
+          4.3611179,
+          52.0445333
         ]
       },
       "properties": {
-        "id": "poi_ambush_r_logical_55",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4506801,
-          51.992255
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_125",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4522334,
-          51.9969616
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_136",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4523086,
-          51.9983478
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_141_cluster_33",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4366733,
-          52.0207992
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_306",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4160376,
-          52.0435123
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_503",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4004661,
-          52.0535306
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_621_cluster_36",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3637989,
-          52.0654405
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_704",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3599955,
-          52.0667976
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_706",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.35793,
-          52.0675533
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_707",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3549052,
-          52.0685957
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_713",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3332578,
-          52.0796606
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_761",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3299362,
-          52.0815458
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_768_cluster_42",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3260916,
-          52.0845147
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_779_cluster_43",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3008307,
-          52.0983722
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_911_cluster_44",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 11 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.298587,
-          52.0986805
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_920_cluster_45",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2866121,
-          52.0956145
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1021_cluster_46",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2895582,
-          52.0932562
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1025_cluster_47",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2913036,
-          52.0918506
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1029",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2938517,
-          52.0897899
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1030_cluster_49",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2952018,
-          52.0886829
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1035_cluster_50",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 8 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.296858,
-          52.0874453
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1043_cluster_51",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 13 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2984636,
-          52.0864332
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1056_cluster_52",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3006215,
-          52.0867521
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1065_cluster_53",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3029267,
-          52.0876469
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1074_cluster_54",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 11 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3052682,
-          52.0882957
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1085_cluster_55",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 15 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3075466,
-          52.0886932
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1100_cluster_56",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 13 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3099889,
-          52.0891731
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1113_cluster_57",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3120433,
-          52.0897706
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1122_cluster_58",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3143874,
-          52.0874238
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1138_cluster_59",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 17 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3123041,
-          52.086722
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1155_cluster_60",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3095745,
-          52.0857106
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1164_cluster_61",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 10 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3071437,
-          52.0847454
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1174_cluster_62",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 10 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3079212,
-          52.0831784
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1184_cluster_63",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3093869,
-          52.0817016
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_logical_1191_cluster_64",
-        "type": "ambush_location",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 6 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4584702,
-          51.9663865
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_68_cluster_65",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4605814,
-          51.967392
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_73_cluster_66",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 13 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4619025,
-          51.9684754
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_86_cluster_67",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4619564,
-          51.9700964
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_93_cluster_68",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4609369,
-          51.9714078
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_100_cluster_69",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 10 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4600731,
-          51.9726969
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_110_cluster_70",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4593379,
-          51.9752779
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_112_cluster_71",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 10 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4587091,
-          51.9765889
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_122_cluster_72",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 8 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4572929,
-          51.9777921
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_130_cluster_73",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4557306,
-          51.9806909
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_133_cluster_74",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4544423,
-          51.9830716
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_135_cluster_75",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4615188,
-          51.9864834
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_158",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4632009,
-          51.9895357
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_170",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4650968,
-          51.9927761
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_180",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4271712,
-          52.0046391
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_383",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4079462,
-          52.0020019
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_443",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3907729,
-          51.9971735
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_481_cluster_81",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3883621,
-          51.9970633
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_493_cluster_82",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3817053,
-          51.994654
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_505",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3780318,
-          51.9937654
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_508",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3710827,
-          51.9920725
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_510_cluster_85",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3674769,
-          51.9911946
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_516",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3645967,
-          51.990495
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_518_cluster_87",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3468829,
-          52.0049127
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_580_cluster_88",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.334337,
-          52.0164805
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_620",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3231685,
-          52.0270835
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_651",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2994163,
-          52.0508792
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_758",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2831454,
-          52.0614553
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_804",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2761763,
-          52.0688986
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_855_cluster_93",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 10 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2756131,
-          52.070457
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_865_cluster_94",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2755072,
-          52.0722182
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_868_cluster_95",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 28 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2754034,
-          52.0740192
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_896_cluster_96",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2752928,
-          52.0758733
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_898_cluster_97",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2763788,
-          52.0776064
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_907_cluster_98",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 13 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2769843,
-          52.078997
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_920_cluster_99",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 6 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2763457,
-          52.0802889
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_926_cluster_100",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 6 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2767143,
-          52.0817164
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_932_cluster_101",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 15 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2758548,
-          52.0831467
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_947_cluster_102",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 12 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2747084,
-          52.0847028
-        ]
-      },
-      "properties": {
-        "id": "poi_ambush_r_safest_959_cluster_103",
-        "type": "ambush_location",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Potential ambush location in constrained road segment. (Represents cluster of 6 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4552309,
-          51.9687196
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_41_cluster_0",
+        "id": "poi_surv_r_shortest_574",
         "type": "surveillance_point",
         "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.7). 3 access routes, 540m from route center.",
+        "priority_score": 2.730648130226978
       }
     },
     {
@@ -1791,16 +186,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3493421,
-          52.0473148
+          4.3610308,
+          52.0445774
         ]
       },
       "properties": {
-        "id": "poi_surv_r_shortest_244_cluster_1",
+        "id": "poi_surv_r_shortest_575",
         "type": "surveillance_point",
         "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.7). 3 access routes, 545m from route center.",
+        "priority_score": 2.7242907397145797
       }
     },
     {
@@ -1808,16 +204,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3466009,
-          52.0497765
+          4.3644183,
+          52.0429957
         ]
       },
       "properties": {
-        "id": "poi_surv_r_shortest_258_cluster_2",
+        "id": "poi_surv_r_shortest_564",
         "type": "surveillance_point",
         "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.6). 2 access routes, 436m from route center.",
+        "priority_score": 2.608656001890759
       }
     },
     {
@@ -1825,16 +222,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3416641,
-          52.0529316
+          4.3326977,
+          52.0731389
         ]
       },
       "properties": {
-        "id": "poi_surv_r_shortest_278_cluster_3",
+        "id": "poi_surv_r_logical_335",
         "type": "surveillance_point",
-        "related_route": "r_shortest",
+        "related_route": "r_logical",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.5). 5 access routes, 1878m from route center.",
+        "priority_score": 2.5
       }
     },
     {
@@ -1842,16 +240,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.339239,
-          52.0554253
+          4.332265,
+          52.0735441
         ]
       },
       "properties": {
-        "id": "poi_surv_r_shortest_289_cluster_4",
+        "id": "poi_surv_r_logical_346",
         "type": "surveillance_point",
-        "related_route": "r_shortest",
+        "related_route": "r_logical",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.5). 5 access routes, 1929m from route center.",
+        "priority_score": 2.5
       }
     },
     {
@@ -1859,16 +258,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3379894,
-          52.0568211
+          4.3296785,
+          52.0755167
         ]
       },
       "properties": {
-        "id": "poi_surv_r_shortest_299_cluster_5",
+        "id": "poi_surv_r_logical_394",
         "type": "surveillance_point",
-        "related_route": "r_shortest",
+        "related_route": "r_logical",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.5). 4 access routes, 2192m from route center.",
+        "priority_score": 2.5
       }
     },
     {
@@ -1876,16 +276,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3347941,
-          52.0597768
+          4.3158895,
+          52.0860512
         ]
       },
       "properties": {
-        "id": "poi_surv_r_shortest_328",
+        "id": "poi_surv_r_logical_454",
         "type": "surveillance_point",
-        "related_route": "r_shortest",
+        "related_route": "r_logical",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
+        "description": "High-priority surveillance position (priority: 2.5). 4 access routes, 3642m from route center.",
+        "priority_score": 2.5
       }
     },
     {
@@ -1893,339 +294,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3280975,
-          52.0609071
+          4.314915,
+          52.0872209
         ]
       },
       "properties": {
-        "id": "poi_surv_r_shortest_371_cluster_7",
+        "id": "poi_surv_r_logical_458",
         "type": "surveillance_point",
-        "related_route": "r_shortest",
+        "related_route": "r_logical",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3231048,
-          52.0590983
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_404_cluster_8",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3168649,
-          52.0612494
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_455_cluster_9",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3132489,
-          52.0633613
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_487_cluster_10",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.311028,
-          52.0640182
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_499_cluster_11",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3086221,
-          52.0645736
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_506_cluster_12",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3065748,
-          52.065153
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_514",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.304506,
-          52.0662858
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_525_cluster_14",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3033939,
-          52.0674711
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_528_cluster_15",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3023109,
-          52.0686476
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_533_cluster_16",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3010629,
-          52.069989
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_542_cluster_17",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3000106,
-          52.0722874
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_568_cluster_18",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.296729,
-          52.0740016
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_597",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2923228,
-          52.0785444
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_619_cluster_20",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2879026,
-          52.0817363
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_636_cluster_21",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2835903,
-          52.0850116
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_662_cluster_22",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2804114,
-          52.0878895
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_686_cluster_23",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 15 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2822482,
-          52.0886843
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_694_cluster_24",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 6 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2833534,
-          52.0903789
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_712_cluster_25",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.286514,
-          52.0956981
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_738_cluster_26",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 8 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.5). 4 access routes, 3788m from route center.",
+        "priority_score": 2.5
       }
     },
     {
@@ -2238,28 +317,12 @@
         ]
       },
       "properties": {
-        "id": "poi_surv_r_shortest_814_cluster_27",
+        "id": "poi_surv_r_logical_756",
         "type": "surveillance_point",
-        "related_route": "r_shortest",
+        "related_route": "r_logical",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3123943,
-          52.0899517
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_821_cluster_28",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 8 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.5). 4 access routes, 4470m from route center.",
+        "priority_score": 2.5
       }
     },
     {
@@ -2272,1558 +335,12 @@
         ]
       },
       "properties": {
-        "id": "poi_surv_r_shortest_831_cluster_29",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 20 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3156736,
-          52.0859237
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_836_cluster_30",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3180893,
-          52.0834937
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_854_cluster_31",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3161237,
-          52.0826486
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_868_cluster_32",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 13 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3142276,
-          52.0819172
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_875_cluster_33",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 16 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.310053,
-          52.0802207
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_shortest_901_cluster_34",
-        "type": "surveillance_point",
-        "related_route": "r_shortest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 8 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.449926,
-          51.9760025
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_60_cluster_35",
+        "id": "poi_surv_r_logical_773",
         "type": "surveillance_point",
         "related_route": "r_logical",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4481151,
-          51.9810313
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_86_cluster_36",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 6 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4495119,
-          51.9900977
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_119_cluster_37",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.452249,
-          51.997314
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_138_cluster_38",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.452258,
-          52.0000405
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_146_cluster_39",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 11 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.450573,
-          52.0029482
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_177_cluster_40",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4484959,
-          52.0046193
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_199_cluster_41",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4468714,
-          52.0066224
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_215_cluster_42",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4451155,
-          52.0089239
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_238_cluster_43",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.443135,
-          52.0119296
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_253",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4422573,
-          52.0134115
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_259_cluster_45",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4405236,
-          52.0157928
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_272_cluster_46",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4395253,
-          52.017258
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_280_cluster_47",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4385297,
-          52.0187593
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_288_cluster_48",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4376786,
-          52.0209507
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_300_cluster_49",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4338581,
-          52.0199986
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_315_cluster_50",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4281766,
-          52.0184946
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_336_cluster_51",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4272474,
-          52.0198444
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_350_cluster_52",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4264456,
-          52.0213088
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_365_cluster_53",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4252658,
-          52.0229353
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_369_cluster_54",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4242277,
-          52.0241926
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_377_cluster_55",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4225622,
-          52.0256606
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_390_cluster_56",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 11 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4210593,
-          52.0278108
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_413_cluster_57",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4201357,
-          52.029317
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_415_cluster_58",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4193262,
-          52.0306285
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_419_cluster_59",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4178684,
-          52.0320234
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_423_cluster_60",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4165248,
-          52.0331993
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_425_cluster_61",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4143364,
-          52.0341963
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_434_cluster_62",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4117734,
-          52.0349937
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_438_cluster_63",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4093602,
-          52.0356611
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_442_cluster_64",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4067885,
-          52.036404
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_446_cluster_65",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4047478,
-          52.0369425
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_449_cluster_66",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 12 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4048321,
-          52.0384619
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_474_cluster_67",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4069823,
-          52.0392172
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_478_cluster_68",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 6 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4089312,
-          52.0402766
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_484_cluster_69",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4150434,
-          52.043069
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_501_cluster_70",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4164798,
-          52.0441231
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_510_cluster_71",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4153262,
-          52.0458676
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_514_cluster_72",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4141523,
-          52.0476239
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_531_cluster_73",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4128568,
-          52.0494893
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_536_cluster_74",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4115168,
-          52.0511611
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_554_cluster_75",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4028038,
-          52.0527524
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_581_cluster_76",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3979868,
-          52.0534758
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_597_cluster_77",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4005884,
-          52.053738
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_622_cluster_78",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4008774,
-          52.055147
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_652",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3347822,
-          52.0785218
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_758",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3223722,
-          52.0866726
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_794",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3210231,
-          52.0880097
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_803_cluster_82",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3176885,
-          52.0865898
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_814",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.307039,
-          52.0965602
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_857_cluster_84",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2895582,
-          52.0932562
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_1025_cluster_85",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2913036,
-          52.0918506
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_1029",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2938517,
-          52.0897899
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_1030_cluster_87",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2952018,
-          52.0886829
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_1035_cluster_88",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2985282,
-          52.086037
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_1060",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3032758,
-          52.0877653
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_1078",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3123041,
-          52.086722
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_1155_cluster_91",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3095745,
-          52.0857106
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_1164_cluster_92",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3071437,
-          52.0847454
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_1174_cluster_93",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 10 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3079212,
-          52.0831784
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_1184_cluster_94",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3093869,
-          52.0817016
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_logical_1191_cluster_95",
-        "type": "surveillance_point",
-        "related_route": "r_logical",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4577407,
-          51.9664756
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_40_cluster_96",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4605814,
-          51.967392
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_73_cluster_97",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 13 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4619025,
-          51.9684754
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_86_cluster_98",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4619564,
-          51.9700964
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_93_cluster_99",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 6 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.460763,
-          51.9715031
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_102_cluster_100",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 9 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4599135,
-          51.9732273
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_111",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4593379,
-          51.9752779
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_112",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4586057,
-          51.9765807
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_123_cluster_103",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4572929,
-          51.9777921
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_130_cluster_104",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4557306,
-          51.9806909
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_133_cluster_105",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4544423,
-          51.9830716
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_135_cluster_106",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4626924,
-          51.9886291
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_165",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.465219,
-          51.9928921
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_182_cluster_108",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 8 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4623348,
-          51.9937053
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_213",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4574504,
-          51.9954316
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_214_cluster_110",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4515569,
-          52.0013642
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_292_cluster_111",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4399731,
-          51.9995605
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_320_cluster_112",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4309531,
-          52.0044254
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_360_cluster_113",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4190073,
-          52.0049628
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_391_cluster_114",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 5 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3974066,
-          51.9981515
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_468_cluster_115",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3901241,
-          51.9972033
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_485",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3585156,
-          51.9891675
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_532",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3522144,
-          51.9872381
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_545",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3485177,
-          52.0005862
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_568_cluster_119",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3447082,
-          52.0068457
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_583_cluster_120",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.5). 4 access routes, 3823m from route center.",
+        "priority_score": 2.5
       }
     },
     {
@@ -3836,11 +353,12 @@
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_595",
+        "id": "poi_surv_r_safest_605",
         "type": "surveillance_point",
         "related_route": "r_safest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
+        "description": "High-priority surveillance position (priority: 2.5). 5 access routes, 2824m from route center.",
+        "priority_score": 2.5
       }
     },
     {
@@ -3848,16 +366,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3384851,
-          52.0132741
+          4.4400348,
+          52.0165922
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_601_cluster_122",
+        "id": "poi_surv_r_shortest_275_cluster_3",
         "type": "surveillance_point",
-        "related_route": "r_safest",
+        "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.4). 5 access routes, 5868m from route center. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 2.35
       }
     },
     {
@@ -3865,16 +384,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.332378,
-          52.018357
+          4.4379877,
+          52.0199317
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_628_cluster_123",
+        "id": "poi_surv_r_shortest_293",
         "type": "surveillance_point",
-        "related_route": "r_safest",
+        "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.4). 5 access routes, 5550m from route center.",
+        "priority_score": 2.35
       }
     },
     {
@@ -3882,16 +402,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3276682,
-          52.0228194
+          4.4079246,
+          52.0360664
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_637_cluster_124",
+        "id": "poi_surv_r_shortest_414_cluster_5",
         "type": "surveillance_point",
-        "related_route": "r_safest",
+        "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.4). 4 access routes, 2897m from route center. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 2.35
       }
     },
     {
@@ -3899,16 +420,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3243247,
-          52.0259175
+          4.403773,
+          52.0372898
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_647",
+        "id": "poi_surv_r_shortest_425_cluster_6",
         "type": "surveillance_point",
-        "related_route": "r_safest",
+        "related_route": "r_shortest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
+        "description": "High-priority surveillance position (priority: 2.4). 5 access routes, 2583m from route center. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 2.35
       }
     },
     {
@@ -3916,16 +438,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3226555,
-          52.027612
+          4.2862948,
+          52.0958755
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_654",
+        "id": "poi_surv_r_logical_593_cluster_7",
+        "type": "surveillance_point",
+        "related_route": "r_logical",
+        "related_chokepoint": null,
+        "description": "High-priority surveillance position (priority: 2.4). 5 access routes, 5686m from route center. (Represents cluster of 3 nearby threat locations)",
+        "priority_score": 2.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4600295,
+          51.9852633
+        ]
+      },
+      "properties": {
+        "id": "poi_surv_r_safest_158",
         "type": "surveillance_point",
         "related_route": "r_safest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
+        "description": "High-priority surveillance position (priority: 2.4). 5 access routes, 8815m from route center.",
+        "priority_score": 2.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4626924,
+          51.9886291
+        ]
+      },
+      "properties": {
+        "id": "poi_surv_r_safest_175_cluster_9",
+        "type": "surveillance_point",
+        "related_route": "r_safest",
+        "related_chokepoint": null,
+        "description": "High-priority surveillance position (priority: 2.4). 5 access routes, 8741m from route center. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 2.35
       }
     },
     {
@@ -3938,11 +497,12 @@
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_664",
+        "id": "poi_surv_r_safest_674_cluster_10",
         "type": "surveillance_point",
         "related_route": "r_safest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
+        "description": "High-priority surveillance position (priority: 2.4). 5 access routes, 2743m from route center. (Represents cluster of 3 nearby threat locations)",
+        "priority_score": 2.35
       }
     },
     {
@@ -3950,16 +510,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.316145,
-          52.0342365
+          4.291156,
+          52.0725951
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_672_cluster_128",
+        "id": "poi_surv_r_safest_902_cluster_11",
         "type": "surveillance_point",
         "related_route": "r_safest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.4). 5 access routes, 6299m from route center. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 2.35
       }
     },
     {
@@ -3967,16 +528,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3119019,
-          52.0385482
+          4.2965922,
+          52.0737947
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_705_cluster_129",
+        "id": "poi_surv_r_safest_920",
         "type": "surveillance_point",
         "related_route": "r_safest",
         "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-priority surveillance position (priority: 2.4). 4 access routes, 6133m from route center.",
+        "priority_score": 2.35
       }
     },
     {
@@ -3984,16 +546,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3083137,
-          52.0427603
+          4.2885914,
+          52.0928302
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_719_cluster_130",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "id": "poi_obs_cp_30216941_cluster_17",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_30216941_cluster_17",
+        "description": "High-value observation point at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.5
       }
     },
     {
@@ -4001,16 +564,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.3036347,
-          52.0473138
+          4.287391,
+          52.0938187
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_735_cluster_131",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "id": "poi_obs_cp_12453613708_cluster_18",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_12453613708_cluster_18",
+        "description": "High-value observation point at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.5
       }
     },
     {
@@ -4018,16 +582,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2998663,
-          52.0503878
+          4.2850859,
+          52.0929787
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_751_cluster_132",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
+        "id": "poi_obs_cp_7080075359_cluster_19",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_7080075359_cluster_19",
+        "description": "High-value observation point at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.5
       }
     },
     {
@@ -4035,16 +600,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.296336,
-          52.0544033
+          4.3157432,
+          52.0809327
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_770_cluster_133",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "id": "poi_obs_cp_45159260_cluster_24",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_45159260_cluster_24",
+        "description": "High-value observation point at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.5
       }
     },
     {
@@ -4052,16 +618,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.292514,
-          52.0590693
+          4.450509,
+          51.9658079
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_784_cluster_134",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "id": "poi_obs_cp_5735349098_cluster_8_cluster_0",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_5735349098_cluster_8",
+        "description": "High-value observation point at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
       }
     },
     {
@@ -4069,16 +636,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2902265,
-          52.0595856
+          4.4524686,
+          51.9666787
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_791",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
+        "id": "poi_obs_cp_7072243049_cluster_9_cluster_1",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_7072243049_cluster_9",
+        "description": "High-value observation point at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
       }
     },
     {
@@ -4086,16 +654,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2850446,
-          52.0608718
+          4.455695,
+          51.9675774
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_792_cluster_136",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
+        "id": "poi_obs_cp_11231001237_cluster_11_cluster_2",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_11231001237_cluster_11",
+        "description": "High-value observation point at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
       }
     },
     {
@@ -4103,16 +672,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2832961,
-          52.0617381
+          4.4522566,
+          51.9974458
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_809_cluster_137",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 3 nearby locations within 150m)"
+        "id": "poi_obs_cp_345616183_cluster_13_cluster_3",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_345616183_cluster_13",
+        "description": "High-value observation point at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
       }
     },
     {
@@ -4120,16 +690,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2794455,
-          52.0653885
+          4.3054863,
+          52.0840864
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_831_cluster_138",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "id": "poi_obs_cp_45171953_cluster_16",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_45171953_cluster_16",
+        "description": "High-value observation point at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.0
       }
     },
     {
@@ -4137,16 +708,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2765054,
-          52.0685474
+          4.2857472,
+          52.0950197
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_846_cluster_139",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "id": "poi_obs_cp_1200840369_cluster_20_cluster_5",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1200840369_cluster_20",
+        "description": "High-value observation point at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
       }
     },
     {
@@ -4154,16 +726,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2755045,
-          52.0723262
+          4.2985282,
+          52.086037
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_870_cluster_140",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "id": "poi_obs_cp_45180990",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_45180990",
+        "description": "High-value observation point at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.0
       }
     },
     {
@@ -4171,16 +744,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2753286,
-          52.0760038
+          4.3146882,
+          52.0820929
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_901",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
+        "id": "poi_obs_cp_6519042443_cluster_23",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_6519042443_cluster_23",
+        "description": "High-value observation point at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.0
       }
     },
     {
@@ -4188,16 +762,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.2770336,
-          52.078569
+          4.2836425,
+          52.0917596
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_912_cluster_142",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
+        "id": "poi_obs_cp_1200840357_cluster_26_cluster_8",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1200840357_cluster_26",
+        "description": "High-value observation point at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
       }
     },
     {
@@ -4205,118 +780,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.277197,
-          52.0823665
+          4.452258,
+          52.0000405
         ]
       },
       "properties": {
-        "id": "poi_surv_r_safest_939_cluster_143",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 10 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2741521,
-          52.08533
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_964_cluster_144",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2772723,
-          52.086663
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_971_cluster_145",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 7 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3001824,
-          52.0986337
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_1084_cluster_146",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 6 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3025714,
-          52.0986739
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_1109_cluster_147",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance. (Represents cluster of 4 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3049443,
-          52.0976911
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_1113",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3089249,
-          52.0942466
-        ]
-      },
-      "properties": {
-        "id": "poi_surv_r_safest_1125",
-        "type": "surveillance_point",
-        "related_route": "r_safest",
-        "related_chokepoint": null,
-        "description": "Major road intersection suitable for surveillance."
+        "id": "poi_obs_cp_1495608287_cluster_15",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1495608287_cluster_15",
+        "description": "High-value observation point at chokepoint (vulnerability: 7.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.5
       }
     },
     {
@@ -4333,7 +807,8 @@
         "type": "enemy_observation_point",
         "related_route": null,
         "related_chokepoint": "cp_4593416910",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "description": "High-value observation point at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.0
       }
     },
     {
@@ -4346,11 +821,12 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_11003276648_cluster_1_cluster_1",
+        "id": "poi_obs_cp_11003276648_cluster_1_cluster_11",
         "type": "enemy_observation_point",
         "related_route": null,
         "related_chokepoint": "cp_11003276648_cluster_1",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-value observation point at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 3.0
       }
     },
     {
@@ -4367,7 +843,8 @@
         "type": "enemy_observation_point",
         "related_route": null,
         "related_chokepoint": "cp_10969424505_cluster_3",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "description": "High-value observation point at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.0
       }
     },
     {
@@ -4380,11 +857,12 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_10969404504_cluster_4_cluster_3",
+        "id": "poi_obs_cp_10969404504_cluster_4_cluster_13",
         "type": "enemy_observation_point",
         "related_route": null,
         "related_chokepoint": "cp_10969404504_cluster_4",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-value observation point at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 3.0
       }
     },
     {
@@ -4397,11 +875,120 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_5390786250_cluster_6_cluster_4",
+        "id": "poi_obs_cp_5390786250_cluster_6",
         "type": "enemy_observation_point",
         "related_route": null,
         "related_chokepoint": "cp_5390786250_cluster_6",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-value observation point at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2844103,
+          52.0933849
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_2189094533_cluster_25",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_2189094533_cluster_25",
+        "description": "High-value observation point at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.287,
+          52.0922
+        ]
+      },
+      "properties": {
+        "id": "poi_obs_cp_45210514",
+        "type": "enemy_observation_point",
+        "related_route": null,
+        "related_chokepoint": "cp_45210514",
+        "description": "High-value observation point at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2885914,
+          52.0928302
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_30216941_cluster_17",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_30216941_cluster_17",
+        "description": "High-value firing position at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.287391,
+          52.0938187
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_12453613708_cluster_18",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_12453613708_cluster_18",
+        "description": "High-value firing position at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2850859,
+          52.0929787
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_7080075359_cluster_19",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_7080075359_cluster_19",
+        "description": "High-value firing position at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3157432,
+          52.0809327
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_45159260_cluster_24",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_45159260_cluster_24",
+        "description": "High-value firing position at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.5
       }
     },
     {
@@ -4414,11 +1001,12 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_5735349098_cluster_8",
-        "type": "enemy_observation_point",
+        "id": "poi_fire_cp_5735349098_cluster_8_cluster_0",
+        "type": "enemy_firing_point",
         "related_route": null,
         "related_chokepoint": "cp_5735349098_cluster_8",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "description": "High-value firing position at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
       }
     },
     {
@@ -4431,11 +1019,12 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_7072243049_cluster_9_cluster_6",
-        "type": "enemy_observation_point",
+        "id": "poi_fire_cp_7072243049_cluster_9_cluster_1",
+        "type": "enemy_firing_point",
         "related_route": null,
         "related_chokepoint": "cp_7072243049_cluster_9",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-value firing position at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
       }
     },
     {
@@ -4448,317 +1037,12 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_11231001237_cluster_11_cluster_7",
-        "type": "enemy_observation_point",
+        "id": "poi_fire_cp_11231001237_cluster_11_cluster_2",
+        "type": "enemy_firing_point",
         "related_route": null,
         "related_chokepoint": "cp_11231001237_cluster_11",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2804114,
-          52.0878895
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_9933716017_cluster_13_cluster_8",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_9933716017_cluster_13",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2830963,
-          52.089194
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200840342_cluster_15_cluster_9",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840342_cluster_15",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2836621,
-          52.0912625
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_2752138589_cluster_17_cluster_10",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_2752138589_cluster_17",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.284582,
-          52.0932073
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_12416488012_cluster_19_cluster_11",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_12416488012_cluster_19",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.286514,
-          52.0956981
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200840398_cluster_21_cluster_12",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840398_cluster_21",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2887152,
-          52.0964647
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200840533_cluster_23_cluster_13",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840533_cluster_23",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.291896,
-          52.0971905
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200840316_cluster_25_cluster_14",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840316_cluster_25",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2961931,
-          52.098189
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1200785922_cluster_27_cluster_15",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200785922_cluster_27",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3001076,
-          52.0983817
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_2175480167_cluster_29",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_2175480167_cluster_29",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3089249,
-          52.0942466
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_45220485_cluster_30",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_45220485_cluster_30",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3102526,
-          52.0926445
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1164136121_cluster_31",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1164136121_cluster_31",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3124435,
-          52.089881
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_10698110627_cluster_32_cluster_19",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_10698110627_cluster_32",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3144678,
-          52.0874326
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_45188005_cluster_34_cluster_20",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_45188005_cluster_34",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3156736,
-          52.0859237
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_1164135929_cluster_36_cluster_21",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1164135929_cluster_36",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3169613,
-          52.0844894
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_2478059048_cluster_38_cluster_22",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_2478059048_cluster_38",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3161237,
-          52.0826486
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_6519060615_cluster_40_cluster_23",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519060615_cluster_40",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3137276,
-          52.0815518
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_6519042432_cluster_42",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519042432_cluster_42",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.311329,
-          52.0806463
-        ]
-      },
-      "properties": {
-        "id": "poi_obs_cp_6519030845_cluster_43_cluster_25",
-        "type": "enemy_observation_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519030845_cluster_43",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-value firing position at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
       }
     },
     {
@@ -4771,11 +1055,102 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_345616183_cluster_45_cluster_26",
-        "type": "enemy_observation_point",
+        "id": "poi_fire_cp_345616183_cluster_13_cluster_3",
+        "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_345616183_cluster_45",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance. (Represents cluster of 2 nearby locations within 150m)"
+        "related_chokepoint": "cp_345616183_cluster_13",
+        "description": "High-value firing position at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3054863,
+          52.0840864
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_45171953_cluster_16",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_45171953_cluster_16",
+        "description": "High-value firing position at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2857472,
+          52.0950197
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_1200840369_cluster_20_cluster_5",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1200840369_cluster_20",
+        "description": "High-value firing position at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2985282,
+          52.086037
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_45180990",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_45180990",
+        "description": "High-value firing position at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3146882,
+          52.0820929
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_6519042443_cluster_23",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_6519042443_cluster_23",
+        "description": "High-value firing position at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 4.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2836425,
+          52.0917596
+        ]
+      },
+      "properties": {
+        "id": "poi_fire_cp_1200840357_cluster_26_cluster_8",
+        "type": "enemy_firing_point",
+        "related_route": null,
+        "related_chokepoint": "cp_1200840357_cluster_26",
+        "description": "High-value firing position at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 4.0
       }
     },
     {
@@ -4788,11 +1163,12 @@
         ]
       },
       "properties": {
-        "id": "poi_obs_cp_1495608287_cluster_47",
-        "type": "enemy_observation_point",
+        "id": "poi_fire_cp_1495608287_cluster_15",
+        "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_1495608287_cluster_47",
-        "description": "Dominant observation point overlooking a key chokepoint, suitable for pre-attack surveillance."
+        "related_chokepoint": "cp_1495608287_cluster_15",
+        "description": "High-value firing position at chokepoint (vulnerability: 7.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.5
       }
     },
     {
@@ -4809,7 +1185,8 @@
         "type": "enemy_firing_point",
         "related_route": null,
         "related_chokepoint": "cp_4593416910",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "description": "High-value firing position at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.0
       }
     },
     {
@@ -4822,11 +1199,12 @@
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_11003276648_cluster_1_cluster_1",
+        "id": "poi_fire_cp_11003276648_cluster_1_cluster_11",
         "type": "enemy_firing_point",
         "related_route": null,
         "related_chokepoint": "cp_11003276648_cluster_1",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-value firing position at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 3.0
       }
     },
     {
@@ -4843,7 +1221,8 @@
         "type": "enemy_firing_point",
         "related_route": null,
         "related_chokepoint": "cp_10969424505_cluster_3",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "description": "High-value firing position at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.0
       }
     },
     {
@@ -4856,11 +1235,12 @@
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_10969404504_cluster_4_cluster_3",
+        "id": "poi_fire_cp_10969404504_cluster_4_cluster_13",
         "type": "enemy_firing_point",
         "related_route": null,
         "related_chokepoint": "cp_10969404504_cluster_4",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-value firing position at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m. (Represents cluster of 2 nearby threat locations)",
+        "priority_score": 3.0
       }
     },
     {
@@ -4873,11 +1253,12 @@
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_5390786250_cluster_6_cluster_4",
+        "id": "poi_fire_cp_5390786250_cluster_6",
         "type": "enemy_firing_point",
         "related_route": null,
         "related_chokepoint": "cp_5390786250_cluster_6",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
+        "description": "High-value firing position at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.0
       }
     },
     {
@@ -4885,16 +1266,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.450509,
-          51.9658079
+          4.2844103,
+          52.0933849
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_5735349098_cluster_8",
+        "id": "poi_fire_cp_2189094533_cluster_25",
         "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_5735349098_cluster_8",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "related_chokepoint": "cp_2189094533_cluster_25",
+        "description": "High-value firing position at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.0
       }
     },
     {
@@ -4902,373 +1284,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.4524686,
-          51.9666787
+          4.287,
+          52.0922
         ]
       },
       "properties": {
-        "id": "poi_fire_cp_7072243049_cluster_9_cluster_6",
+        "id": "poi_fire_cp_45210514",
         "type": "enemy_firing_point",
         "related_route": null,
-        "related_chokepoint": "cp_7072243049_cluster_9",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.455695,
-          51.9675774
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_11231001237_cluster_11_cluster_7",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_11231001237_cluster_11",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2804114,
-          52.0878895
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_9933716017_cluster_13_cluster_8",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_9933716017_cluster_13",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2830963,
-          52.089194
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200840342_cluster_15_cluster_9",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840342_cluster_15",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2836621,
-          52.0912625
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_2752138589_cluster_17_cluster_10",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_2752138589_cluster_17",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.284582,
-          52.0932073
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_12416488012_cluster_19_cluster_11",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_12416488012_cluster_19",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.286514,
-          52.0956981
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200840398_cluster_21_cluster_12",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840398_cluster_21",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2887152,
-          52.0964647
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200840533_cluster_23_cluster_13",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840533_cluster_23",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.291896,
-          52.0971905
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200840316_cluster_25_cluster_14",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200840316_cluster_25",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.2961931,
-          52.098189
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1200785922_cluster_27_cluster_15",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1200785922_cluster_27",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3001076,
-          52.0983817
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_2175480167_cluster_29",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_2175480167_cluster_29",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3089249,
-          52.0942466
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_45220485_cluster_30",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_45220485_cluster_30",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3102526,
-          52.0926445
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1164136121_cluster_31",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1164136121_cluster_31",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3124435,
-          52.089881
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_10698110627_cluster_32_cluster_19",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_10698110627_cluster_32",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3144678,
-          52.0874326
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_45188005_cluster_34_cluster_20",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_45188005_cluster_34",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3156736,
-          52.0859237
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1164135929_cluster_36_cluster_21",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1164135929_cluster_36",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3169613,
-          52.0844894
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_2478059048_cluster_38_cluster_22",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_2478059048_cluster_38",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3161237,
-          52.0826486
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_6519060615_cluster_40_cluster_23",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519060615_cluster_40",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.3137276,
-          52.0815518
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_6519042432_cluster_42",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519042432_cluster_42",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.311329,
-          52.0806463
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_6519030845_cluster_43_cluster_25",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_6519030845_cluster_43",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.4522566,
-          51.9974458
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_345616183_cluster_45_cluster_26",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_345616183_cluster_45",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route. (Represents cluster of 2 nearby locations within 150m)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.452258,
-          52.0000405
-        ]
-      },
-      "properties": {
-        "id": "poi_fire_cp_1495608287_cluster_47",
-        "type": "enemy_firing_point",
-        "related_route": null,
-        "related_chokepoint": "cp_1495608287_cluster_47",
-        "description": "Potential firing position with line-of-sight to the chokepoint, for example from elevated structures or cover near the route."
+        "related_chokepoint": "cp_45210514",
+        "description": "High-value firing position at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m.",
+        "priority_score": 3.0
       }
     }
   ]
