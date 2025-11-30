@@ -180,7 +180,7 @@ def analyze():
 
     logger.info("Loading analysis for scenario=%s", scenario.name)
     try:
-        # Load precomputed data instead of computing live
+        # Load precomputed data with improved POI coverage
         analysis = load_precomputed_analysis(scenario.name)
         analysis["scenario"] = {
             "name": scenario.name,
