@@ -61,5 +61,4 @@ logs/
 
 # Runtime cache and precomputed graphs
 cache/*.graphml
-precomputed/*.graphml
 
