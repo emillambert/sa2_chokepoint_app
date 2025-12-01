@@ -8,7 +8,7 @@
 [![Flask](https://img.shields.io/badge/Flask-3.0+-lightgrey.svg)](https://flask.palletsprojects.com/)
 [![OSMnx](https://img.shields.io/badge/OSMnx-1.9+-green.svg)](https://osmnx.readthedocs.io/)
 
-*Secret Affairs 2 – Minor Intelligence Studies, Leiden University*  [oai_citation:0‡2025-2026 Syllabus Secret Affairs 2.pdf](file-service://file-Tb6ZzZ53kfZMWUoJYVSaYY)  
+*Secret Affairs 2 – Minor Intelligence Studies, Leiden University*
 
 </div>
 
