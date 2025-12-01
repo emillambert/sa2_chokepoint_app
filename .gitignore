@@ -60,5 +60,6 @@ logs/
 *.temp
 
 # Runtime cache and precomputed graphs
-cache/*.graphml
+cache/
+precomputed/
 
