@@ -59,6 +59,7 @@ logs/
 *.tmp
 *.temp
 
-# Runtime cache (but keep precomputed graphs in repository)
+# Runtime cache and precomputed graphs
 cache/*.graphml
+precomputed/*.graphml
 
