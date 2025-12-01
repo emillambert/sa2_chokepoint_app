@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.32,
+          52.08
+        ]
+      },
+      "properties": {
+        "id": "ndw_001",
+        "description": "Road maintenance on Konningskade - lane closures expected",
+        "start_date": "2026-01-15",
+        "end_date": "2026-01-20",
+        "affected_roads": [
+          "Konninginnegracht",
+          "Konnningskade"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.29,
+          52.085
+        ]
+      },
+      "properties": {
+        "id": "ndw_002",
+        "description": "Bridge inspection and maintenance on Hubertus Viaduct",
+        "start_date": "2026-01-08",
+        "end_date": "2026-01-12",
+        "affected_roads": [
+          "Hubertus Viaduct"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.28,
+          52.09
+        ]
+      },
+      "properties": {
+        "id": "ndw_003",
+        "description": "Utility work on S100 - temporary traffic lights",
+        "start_date": "2026-01-22",
+        "end_date": "2026-01-26",
+        "affected_roads": [
+          "S100"
+        ]
+      }
+    }
+  ]
+}

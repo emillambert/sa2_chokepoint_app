@@ -121,6 +121,22 @@ select {
   background: #a855f7;
 }
 
+.legend-shortest {
+  background: #ef4444;
+}
+
+.legend-logical {
+  background: #3b82f6;
+}
+
+.legend-safest {
+  background: #10b981;
+}
+
+.legend-safe-manual {
+  background: #8b5cf6;
+}
+
 /* External map links styling */
 .external-links {
   margin-left: 0.5rem;

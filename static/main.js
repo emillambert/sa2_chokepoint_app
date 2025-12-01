@@ -134,6 +134,7 @@ function renderAnalysis(data, summaryEl, cachedTimestamp = null) {
     r_shortest: "#ef4444",
     r_logical: "#3b82f6",
     r_safest: "#10b981",
+    r_safe_manual: "#8b5cf6",  // Purple for the manual safe route
   };
 
   const bounds = [];
@@ -156,10 +157,11 @@ function renderAnalysis(data, summaryEl, cachedTimestamp = null) {
     );
   }
 
-  // Overlay chokepoints, POIs and security teams.
+  // Overlay chokepoints, POIs, security teams, and road work.
   renderChokepoints(data.chokepoints);
   renderPois(data.pois);
   renderTeams(data.teams);
+  renderRoadWork(data.roadwork || []);
 
   if (bounds.length) {
     map.fitBounds(L.latLngBounds(bounds), { padding: [20, 20] });
@@ -183,6 +185,10 @@ function renderAnalysis(data, summaryEl, cachedTimestamp = null) {
   const sdtCount = teamValues.filter((t) => t.type === "SDT").length;
   const csCount = teamValues.filter((t) => t.type === "CS").length;
 
+  const roadworkCount = Object.keys(data.roadwork || {}).length;
+  const routeCount = Object.keys(data.routes || {}).length;
+  const routeText = routeCount === 1 ? "route has" : "routes have";
+
   // Add cache info if applicable
   const cacheInfo = cachedTimestamp
     ? `<p style="font-size: 0.9em; color: #666; margin-top: 8px;">
@@ -191,10 +197,29 @@ function renderAnalysis(data, summaryEl, cachedTimestamp = null) {
       </p>`
     : '';
 
+  // Create route legend
+  const routeLegendItems = [];
+  if (data.routes.r_shortest) {
+    routeLegendItems.push(`<li><span class="legend-swatch legend-shortest"></span> Shortest route (red) - ${(data.routes.r_shortest.length_m / 1000).toFixed(1)}km</li>`);
+  }
+  if (data.routes.r_logical) {
+    routeLegendItems.push(`<li><span class="legend-swatch legend-logical"></span> Most logical route (blue) - ${(data.routes.r_logical.length_m / 1000).toFixed(1)}km</li>`);
+  }
+  if (data.routes.r_safest) {
+    routeLegendItems.push(`<li><span class="legend-swatch legend-safest"></span> Safest route (green) - ${(data.routes.r_safest.length_m / 1000).toFixed(1)}km</li>`);
+  }
+  if (data.routes.r_safe_manual) {
+    routeLegendItems.push(`<li><span class="legend-swatch legend-safe-manual"></span> Safe route (manual, purple) - ${(data.routes.r_safe_manual.length_m / 1000).toFixed(1)}km</li>`);
+  }
+
   summaryEl.innerHTML = `
     <p>Scenario: <strong>${data.scenario.name}</strong></p>
-    <p>Three routes have been computed between the airport, World Forum and Mauritshuis.</p>
+    <p>${routeCount} ${routeText} been computed between the airport, World Forum and Mauritshuis.</p>
     <ul>${lines.join("")}</ul>
+    <h3>Route Legend</h3>
+    <ul>
+      ${routeLegendItems.join("")}
+    </ul>
     <h3>Chokepoints</h3>
     <p>${chokepointCount} chokepoints identified where multiple routes converge or are structurally constrained.</p>
     <h3>Points of Interest</h3>
@@ -206,6 +231,7 @@ function renderAnalysis(data, summaryEl, cachedTimestamp = null) {
     </ul>
     <h3>Security teams</h3>
     <p><span class="legend-swatch legend-sdt"></span> SDT teams: ${sdtCount}, <span class="legend-swatch legend-cs"></span> CS teams: ${csCount}.</p>
+    ${roadworkCount > 0 ? `<h3>Road Work</h3><p>${roadworkCount} road work locations identified for January 2026.</p>` : ''}
     <p>Use this visualisation together with your manual reconnaissance to write up Parts 1–4 of the chokepoint analysis.</p>
     ${cacheInfo}
   `;
@@ -296,6 +322,31 @@ function renderTeams(teams) {
       ${createStreetViewLink(lat, lon, `${team.id} Team`)}`
     );
     teamLayers.push(marker);
+  });
+}
+
+function renderRoadWork(roadwork) {
+  Object.values(roadwork || {}).forEach((rw) => {
+    const [lat, lon] = rw.location;
+    const marker = L.circleMarker([lat, lon], {
+      radius: 5,
+      color: "#f59e0b",  // Amber color for road work
+      weight: 2,
+      fillColor: "#fbbf24",
+      fillOpacity: 0.9,
+    }).addTo(map);
+
+    const dateInfo = [];
+    if (rw.start_date) dateInfo.push(`Start: ${rw.start_date}`);
+    if (rw.end_date) dateInfo.push(`End: ${rw.end_date}`);
+
+    marker.bindPopup(
+      `<strong>Road Work</strong><br />${rw.description}<br />${
+        dateInfo.length > 0 ? dateInfo.join('<br />') + '<br />' : ''
+      }Affected roads: ${rw.affected_roads.join(', ') || 'Unknown'}
+      ${createStreetViewLink(lat, lon, 'Road Work')}`
+    );
+    teamLayers.push(marker);  // Reuse teamLayers array for road work markers
   });
 }
 

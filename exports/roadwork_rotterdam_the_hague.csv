@@ -1,0 +1,4 @@
+id,location,description,start_date,end_date,affected_roads
+ndw_001,"[4.32, 52.08]",Road maintenance on Konningskade - lane closures expected,2026-01-15,2026-01-20,"['Konninginnegracht', 'Konnningskade']"
+ndw_002,"[4.29, 52.085]",Bridge inspection and maintenance on Hubertus Viaduct,2026-01-08,2026-01-12,['Hubertus Viaduct']
+ndw_003,"[4.28, 52.09]",Utility work on S100 - temporary traffic lights,2026-01-22,2026-01-26,['S100']

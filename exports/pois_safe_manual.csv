@@ -1,0 +1,12 @@
+description,id,location,priority_score,related_chokepoint,related_route,type
+High-value observation point at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 78m away),poi_obs_cp_45159260_cluster_24,"(52.0809327, 4.3157432)",4.5,cp_45159260_cluster_24,r_safe_manual,enemy_observation_point
+High-value observation point at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 133m away),poi_obs_cp_6519042443_cluster_23,"(52.0820929, 4.3146882)",4.0,cp_6519042443_cluster_23,r_safe_manual,enemy_observation_point
+High-value observation point at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 225m away),poi_obs_cp_4593416910,"(51.9578975, 4.4351556)",3.0,cp_4593416910,r_safe_manual,enemy_observation_point
+High-value firing position at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 78m away),poi_fire_cp_45159260_cluster_24,"(52.0809327, 4.3157432)",4.5,cp_45159260_cluster_24,r_safe_manual,enemy_firing_point
+High-value firing position at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 133m away),poi_fire_cp_6519042443_cluster_23,"(52.0820929, 4.3146882)",4.0,cp_6519042443_cluster_23,r_safe_manual,enemy_firing_point
+High-value firing position at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 225m away),poi_fire_cp_4593416910,"(51.9578975, 4.4351556)",3.0,cp_4593416910,r_safe_manual,enemy_firing_point
+"High-threat ambush location along A16 motorway segment - good visibility, limited escape routes",poi_safe_ambush_a16,"(52.00, 4.47)",7.5,,r_safe_manual,ambush_location
+Elevated observation point at Hubertus Viaduct - commanding view of motorcade approach,poi_safe_observation_hubertus,"(52.085, 4.36)",8.0,cp_safe_hubertus_viaduct,r_safe_manual,enemy_observation_point
+Potential firing position overlooking Hubertus Viaduct - elevated bridge structure,poi_safe_firing_viaduct,"(52.085, 4.36)",8.5,cp_safe_hubertus_viaduct,r_safe_manual,enemy_firing_point
+Urban surveillance position at Konnningskade intersection - multiple building vantage points,poi_safe_surveillance_konnningskade,"(52.085, 4.44)",6.0,cp_safe_konnningskade,r_safe_manual,surveillance_point
+"Urban ambush opportunity near S100 junction - dense building cover, pedestrian crowds",poi_safe_ambush_urban,"(52.08, 4.32)",8.0,,r_safe_manual,ambush_location

@@ -2,6 +2,9 @@ import logging
 import json
 import pandas as pd
 from pathlib import Path
+import requests
+from typing import List, Dict, Any
+from datetime import datetime
 
 from flask import Blueprint, current_app, jsonify, render_template, request
 
@@ -10,6 +13,77 @@ from config import (
     ROTTERDAM_THE_HAGUE_SCENARIO,
     SCHIPHOL_SCENARIO,
 )
+from .models import RoadWork
+
+
+def fetch_ndw_roadwork_data() -> List[RoadWork]:
+    """Fetch road work data from NDW API for The Hague area in January 2026.
+
+    Uses the NDW API with the specific parameters provided:
+    - Area: The Hague (sw=52.039725,4.237061&ne=52.097844,4.357312)
+    - Period: January 2026 (01-01-2026 to 31-01-2026)
+    """
+    try:
+        # NDW API endpoint for road work data
+        base_url = "https://melvin.ndw.nu/public/api/v1/workzones"
+
+        # Parameters from the provided URL
+        params = {
+            "sw": "52.039725,4.237061",  # Southwest corner
+            "ne": "52.097844,4.357312",  # Northeast corner
+            "areas": "428",  # The Hague area code
+            "predefinedPeriod": "CUSTOM",
+            "startPeriod": "01-01-2026",
+            "endPeriod": "31-01-2026"
+        }
+
+        logger.info("Fetching road work data from NDW API")
+        response = requests.get(base_url, params=params, timeout=30)
+
+        if response.status_code != 200:
+            logger.warning(f"NDW API returned status {response.status_code}: {response.text}")
+            return []
+
+        data = response.json()
+        roadworks = []
+
+        # Parse the response - assuming it returns features in GeoJSON-like format
+        for item in data.get("features", []):
+            try:
+                props = item.get("properties", {})
+                geometry = item.get("geometry", {})
+
+                # Extract coordinates (assuming Point geometry)
+                if geometry.get("type") == "Point":
+                    lon, lat = geometry.get("coordinates", [0, 0])
+                else:
+                    # For other geometry types, use centroid or skip
+                    continue
+
+                # Create road work object
+                roadwork = RoadWork(
+                    id=f"ndw_{props.get('id', len(roadworks))}",
+                    location=(float(lat), float(lon)),
+                    description=props.get("description", "Road work"),
+                    start_date=props.get("start_date"),
+                    end_date=props.get("end_date"),
+                    affected_roads=props.get("roads_affected", [])
+                )
+                roadworks.append(roadwork)
+
+            except Exception as e:
+                logger.warning(f"Failed to parse road work item: {e}")
+                continue
+
+        logger.info(f"Successfully fetched {len(roadworks)} road work items from NDW API")
+        return roadworks
+
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Failed to fetch road work data from NDW API: {e}")
+        return []
+    except Exception as e:
+        logger.error(f"Unexpected error fetching road work data: {e}")
+        return []
 
 
 bp = Blueprint("main", __name__)
@@ -188,13 +262,23 @@ def analyze():
             "via": scenario.via,
             "end": scenario.end,
         }
+
+        # Add road work data for The Hague scenarios
+        if scenario_name == ROTTERDAM_THE_HAGUE_SCENARIO.name:
+            roadwork_data = fetch_ndw_roadwork_data()
+            analysis["roadwork"] = [vars(rw) for rw in roadwork_data]
+            logger.info("Added %d road work items to analysis", len(roadwork_data))
+        else:
+            analysis["roadwork"] = []
+
         logger.info(
-            "Analysis loaded scenario=%s routes=%d chokepoints=%d pois=%d teams=%d",
+            "Analysis loaded scenario=%s routes=%d chokepoints=%d pois=%d teams=%d roadwork=%d",
             scenario.name,
             len(analysis["routes"]),
             len(analysis["chokepoints"]),
             len(analysis["pois"]),
             len(analysis["teams"]),
+            len(analysis.get("roadwork", [])),
         )
         # Add cache control headers to prevent browser caching
         response = jsonify(analysis)

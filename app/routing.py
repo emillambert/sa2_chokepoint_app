@@ -237,9 +237,25 @@ def _route_from_path(
     length_m = _path_length(G, path)
     coords = _path_to_coords(G, path)
     turns = _estimate_turns(G, path)
+
+    # Check for tunnels on the route
+    tunnels = _check_tunnels_on_route(G, path)
+
     # A simple baseline risk score will be refined later in the analysis module.
     risk_score = 0.0
-    description = ""
+
+    # Build description with tunnel information
+    description_parts = []
+    if tunnels:
+        tunnel_count = len(tunnels)
+        total_tunnel_length = sum(t["length_m"] for t in tunnels)
+        description_parts.append(f"Contains {tunnel_count} tunnel(s) with total length {total_tunnel_length:.0f}m")
+        if tunnel_count <= 2:  # Only detail short tunnel routes
+            tunnel_names = [t["road_name"] for t in tunnels]
+            description_parts.append(f"Tunnels: {', '.join(tunnel_names)}")
+
+    description = ". ".join(description_parts) if description_parts else ""
+
     route = Route(
         id=route_id,
         label=label,
@@ -405,12 +421,158 @@ def _safest_route(
     return path1 + path2[1:]
 
 
+def _safe_route_manual(G: nx.MultiDiGraph, start: int, via: int, end: int) -> List[int]:
+    """Manually defined safe route following specific road segments.
+
+    Route segments: A16-N209-A12-Konningskade-Hubertus Viaduct-S100-Korte Voorhout
+    This function tries to find edges matching these road names and connect them.
+    """
+    # Road segments to match (in order)
+    road_segments = [
+        "A16", "N209", "A12", "Koninginnegracht", "Hubertus Viaduct",
+        "S100", "Korte Voorhout"
+    ]
+
+    # Alternative names that might appear in OSM
+    road_alternatives = {
+        "A16": ["A16", "A 16", "rijksweg 16"],
+        "N209": ["N209", "N 209", "rijksweg 209"],
+        "A12": ["A12", "A 12", "rijksweg 12"],
+        "Koninginnegracht": ["Koninginnegracht", "Koninginne gracht", "Koningskade"],
+        "Hubertus Viaduct": ["Hubertus Viaduct", "Hubertusviaduct", "Hubertus"],
+        "S100": ["S100", "S 100", "provincialeweg 100"],
+        "Korte Voorhout": ["Korte Voorhout", "Kortevoorhout"]
+    }
+
+    def matches_road_name(edge_data: Dict, target_roads: List[str]) -> bool:
+        """Check if edge name matches any of the target road names."""
+        highway_name = _normalize_highway(edge_data.get("name", ""))
+        highway_ref = _normalize_highway(edge_data.get("ref", ""))
+
+        for target in target_roads:
+            # Check exact matches and case-insensitive matches
+            if (highway_name and target.lower() in highway_name.lower()) or \
+               (highway_ref and target.lower() in highway_ref.lower()):
+                return True
+        return False
+
+    # Find all edges that match our road segments
+    segment_edges = {segment: [] for segment in road_segments}
+
+    for u, v, k, data in G.edges(keys=True, data=True):
+        for segment, alternatives in road_alternatives.items():
+            if matches_road_name(data, alternatives):
+                segment_edges[segment].append((u, v, k))
+
+    # Try to build a path by connecting segments
+    path = []
+    current_node = start
+
+    # First, get from start to the first road segment
+    try:
+        path_to_first = nx.shortest_path(G, current_node, via, weight="length")
+        path.extend(path_to_first[:-1])  # Don't duplicate the via node
+    except nx.NetworkXNoPath:
+        # If direct path fails, use a basic approach
+        path.append(current_node)
+
+    # For each road segment, find the closest edge and add it
+    for segment in road_segments:
+        edges = segment_edges.get(segment, [])
+        if not edges:
+            logger.warning(f"No edges found for road segment: {segment}")
+            continue
+
+        # Find the closest edge to current position
+        min_distance = float('inf')
+        best_edge = None
+
+        for u, v, k in edges:
+            try:
+                # Distance from current node to edge start
+                dist_u = nx.shortest_path_length(G, current_node, u, weight="length")
+                if dist_u < min_distance:
+                    min_distance = dist_u
+                    best_edge = (u, v, k)
+            except nx.NetworkXNoPath:
+                continue
+
+        if best_edge:
+            u, v, k = best_edge
+            # Add path to reach this edge
+            if current_node != u:
+                try:
+                    sub_path = nx.shortest_path(G, current_node, u, weight="length")
+                    path.extend(sub_path[1:])  # Skip current node to avoid duplication
+                except nx.NetworkXNoPath:
+                    # Skip this edge if unreachable
+                    continue
+
+            # Add the edge nodes
+            if path and path[-1] != u:
+                path.append(u)
+            path.append(v)
+            current_node = v
+
+    # Finally, get from last segment to end
+    try:
+        path_to_end = nx.shortest_path(G, current_node, end, weight="length")
+        if path and path[-1] == path_to_end[0]:
+            path.extend(path_to_end[1:])
+        else:
+            path.extend(path_to_end)
+    except nx.NetworkXNoPath:
+        # If we can't reach the end, at least include the end node
+        if end not in path:
+            path.append(end)
+
+    # Remove duplicates that might have been introduced
+    cleaned_path = []
+    for node in path:
+        if not cleaned_path or cleaned_path[-1] != node:
+            cleaned_path.append(node)
+
+    # Ensure we have at least start and end
+    if not cleaned_path:
+        cleaned_path = [start, end]
+    elif cleaned_path[0] != start:
+        cleaned_path.insert(0, start)
+    if cleaned_path[-1] != end:
+        cleaned_path.append(end)
+
+    logger.info(f"Manual safe route: found {len(cleaned_path)} nodes through {len(road_segments)} road segments")
+    return cleaned_path
+
+
+def _check_tunnels_on_route(G: nx.MultiDiGraph, path: List[int]) -> List[Dict]:
+    """Check for tunnels and underpasses on a route and return details."""
+    tunnels = []
+
+    for idx, (u, v) in enumerate(zip(path[:-1], path[1:])):
+        edge_data = min(G.get_edge_data(u, v).values(), key=lambda d: d.get("length", 0))
+        tunnel = _has_attr(edge_data.get("tunnel"), {"yes", "building_passage"})
+
+        if tunnel:
+            highway_name = _normalize_highway(edge_data.get("name", ""))
+            highway_ref = _normalize_highway(edge_data.get("ref", ""))
+            road_name = highway_name or highway_ref or "Unnamed road"
+
+            tunnels.append({
+                "index": idx,
+                "road_name": road_name,
+                "length_m": float(edge_data.get("length", 0)),
+                "coordinates": [(G.nodes[u]["y"], G.nodes[u]["x"]), (G.nodes[v]["y"], G.nodes[v]["x"])]
+            })
+
+    return tunnels
+
+
 def _edge_set(path: List[int]) -> set[Tuple[int, int]]:
     return {(u, v) for u, v in zip(path[:-1], path[1:])}
 
 
 def compute_routes(start: LatLon, via: LatLon, end: LatLon, scenario_name: str = "default") -> Dict[str, Dict]:
-    """Compute three distinct routes (shortest, logical, safest) between waypoints.
+    """Compute distinct routes (shortest, logical, safest, and manual safe for Rotterdam/The Hague) between waypoints.
 
     Returns a JSON-serialisable dictionary for easy use in the API layer.
     """
@@ -458,6 +620,14 @@ def compute_routes(start: LatLon, via: LatLon, end: LatLon, scenario_name: str =
                 G, safest_path, "r_safest", "Safest route", "safest"
             ),
         }
+
+        # Add manual safe route for Rotterdam/The Hague scenario
+        if scenario_name == "rotterdam_the_hague":
+            logger.info("Computing manual safe route")
+            safe_manual_path = _safe_route_manual(G, start_n, via_n, end_n)
+            routes["r_safe_manual"] = _route_from_path(
+                G, safe_manual_path, "r_safe_manual", "Safe route (manual)", "safe_manual"
+            )
         logger.info("Route computation finished successfully")
         return routes
     except Exception as exc:

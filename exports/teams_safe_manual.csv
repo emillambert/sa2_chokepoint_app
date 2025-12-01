@@ -1,0 +1,10 @@
+id,type,location,assigned_to,role_description
+SDT1,SDT,"(51.97, 4.45)",cp_safe_a16_start,Advance team: reconnaissance and early road closure at A16 motorway start
+SDT2,SDT,"(52.05, 4.51)",cp_safe_n209_junction,Static protection team securing N209 to A12 transition junction
+SDT3,SDT,"(52.075, 4.50)",cp_safe_a12_approach,Rear security team covering A12 approach to The Hague
+SDT4,SDT,"(52.085, 4.44)",cp_safe_konnningskade,Escort team integrated in motorcade at Konnningskade intersection
+SDT5,SDT,"(52.085, 4.36)",cp_safe_hubertus_viaduct,Reserve team positioned at Hubertus Viaduct for reinforcement
+SDT6,SDT,"(52.082, 4.33)",cp_safe_s100_junction,Quick reaction force covering S100 junction near Mauritshuis
+CS1,CS,"(52.085, 4.36)",cp_safe_hubertus_viaduct,Counter-sniper overwatch on Hubertus Viaduct - highest vulnerability point
+CS2,CS,"(52.085, 4.44)",cp_safe_konnningskade,Counter-sniper team covering Konnningskade urban approach
+CS3,CS,"(52.08, 4.32)",cp_safe_s100_junction,Counter-sniper team covering S100 junction and Mauritshuis reception

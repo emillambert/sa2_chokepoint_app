@@ -57,3 +57,13 @@ class SecurityTeamPlacement:
     role_description: str
 
 
+@dataclass
+class RoadWork:
+    id: str
+    location: LatLon
+    description: str
+    start_date: str | None
+    end_date: str | None
+    affected_roads: List[str]
+
+

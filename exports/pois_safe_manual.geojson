@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3157432,
+          52.0809327
+        ]
+      },
+      "properties": {
+        "description": "High-value observation point at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 78m away)",
+        "id": "poi_obs_cp_45159260_cluster_24",
+        "priority_score": 4.5,
+        "related_chokepoint": "cp_45159260_cluster_24",
+        "related_route": "r_safe_manual",
+        "type": "enemy_observation_point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3146882,
+          52.0820929
+        ]
+      },
+      "properties": {
+        "description": "High-value observation point at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 133m away)",
+        "id": "poi_obs_cp_6519042443_cluster_23",
+        "priority_score": 4.0,
+        "related_chokepoint": "cp_6519042443_cluster_23",
+        "related_route": "r_safe_manual",
+        "type": "enemy_observation_point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4351556,
+          51.9578975
+        ]
+      },
+      "properties": {
+        "description": "High-value observation point at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 225m away)",
+        "id": "poi_obs_cp_4593416910",
+        "priority_score": 3.0,
+        "related_chokepoint": "cp_4593416910",
+        "related_route": "r_safe_manual",
+        "type": "enemy_observation_point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3157432,
+          52.0809327
+        ]
+      },
+      "properties": {
+        "description": "High-value firing position at chokepoint (vulnerability: 9.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 78m away)",
+        "id": "poi_fire_cp_45159260_cluster_24",
+        "priority_score": 4.5,
+        "related_chokepoint": "cp_45159260_cluster_24",
+        "related_route": "r_safe_manual",
+        "type": "enemy_firing_point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3146882,
+          52.0820929
+        ]
+      },
+      "properties": {
+        "description": "High-value firing position at chokepoint (vulnerability: 8.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 133m away)",
+        "id": "poi_fire_cp_6519042443_cluster_23",
+        "priority_score": 4.0,
+        "related_chokepoint": "cp_6519042443_cluster_23",
+        "related_route": "r_safe_manual",
+        "type": "enemy_firing_point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4351556,
+          51.9578975
+        ]
+      },
+      "properties": {
+        "description": "High-value firing position at chokepoint (vulnerability: 6.0). Elevation advantage: Yes. Distance to route: 0m. (Near safe route - 225m away)",
+        "id": "poi_fire_cp_4593416910",
+        "priority_score": 3.0,
+        "related_chokepoint": "cp_4593416910",
+        "related_route": "r_safe_manual",
+        "type": "enemy_firing_point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.47,
+          52.0
+        ]
+      },
+      "properties": {
+        "id": "poi_safe_ambush_a16",
+        "type": "ambush_location",
+        "related_route": "r_safe_manual",
+        "related_chokepoint": null,
+        "description": "High-threat ambush location along A16 motorway segment - good visibility, limited escape routes",
+        "priority_score": 7.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.36,
+          52.085
+        ]
+      },
+      "properties": {
+        "id": "poi_safe_observation_hubertus",
+        "type": "enemy_observation_point",
+        "related_route": "r_safe_manual",
+        "related_chokepoint": "cp_safe_hubertus_viaduct",
+        "description": "Elevated observation point at Hubertus Viaduct - commanding view of motorcade approach",
+        "priority_score": 8.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.36,
+          52.085
+        ]
+      },
+      "properties": {
+        "id": "poi_safe_firing_viaduct",
+        "type": "enemy_firing_point",
+        "related_route": "r_safe_manual",
+        "related_chokepoint": "cp_safe_hubertus_viaduct",
+        "description": "Potential firing position overlooking Hubertus Viaduct - elevated bridge structure",
+        "priority_score": 8.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.44,
+          52.085
+        ]
+      },
+      "properties": {
+        "id": "poi_safe_surveillance_konnningskade",
+        "type": "surveillance_point",
+        "related_route": "r_safe_manual",
+        "related_chokepoint": "cp_safe_konnningskade",
+        "description": "Urban surveillance position at Konnningskade intersection - multiple building vantage points",
+        "priority_score": 6.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.32,
+          52.08
+        ]
+      },
+      "properties": {
+        "id": "poi_safe_ambush_urban",
+        "type": "ambush_location",
+        "related_route": "r_safe_manual",
+        "related_chokepoint": null,
+        "description": "Urban ambush opportunity near S100 junction - dense building cover, pedestrian crowds",
+        "priority_score": 8.0
+      }
+    }
+  ]
+}

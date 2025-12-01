@@ -78,3 +78,4 @@ if __name__ == "__main__":
     print("   • Simplified geometries = faster loading")
     print("   • Light filtering = maintains connectivity")
     print("   • 512MB compliant: ✅ GUARANTEED")
+

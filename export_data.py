@@ -110,6 +110,12 @@ def run_export(scenario_name: str) -> None:
     with (out_dir / f"teams_{scenario.name}.geojson").open("w", encoding="utf-8") as f:
         json.dump(teams_geo, f, indent=2)
 
+    # Road work GeoJSON export (only for scenarios that have road work)
+    if "roadwork" in analysis and analysis["roadwork"]:
+        roadwork_geo = _to_geojson_point_features(analysis["roadwork"], "location")
+        with (out_dir / f"roadwork_{scenario.name}.geojson").open("w", encoding="utf-8") as f:
+            json.dump(roadwork_geo, f, indent=2)
+
     # CSV exports – useful as tables in the written report.
     routes_rows = []
     for r in analysis["routes"].values():
@@ -130,6 +136,13 @@ def run_export(scenario_name: str) -> None:
     )
     _write_csv(out_dir / f"pois_{scenario.name}.csv", analysis["pois"].values())
     _write_csv(out_dir / f"teams_{scenario.name}.csv", analysis["teams"].values())
+
+    # Road work CSV export (only for scenarios that have road work)
+    if "roadwork" in analysis and analysis["roadwork"]:
+        _write_csv(
+            out_dir / f"roadwork_{scenario.name}.csv",
+            analysis["roadwork"],
+        )
 
     print(f"Exported analysis for scenario '{scenario.name}' to {out_dir}")
 

@@ -1,0 +1,275 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4351556,
+          51.9578975
+        ]
+      },
+      "properties": {
+        "description": "Node used by 3 of 3 routes. Factors: common_to_all_routes. (Near safe route - 225m away)",
+        "factors": "['common_to_all_routes']",
+        "id": "cp_4593416910",
+        "routes_affected": "['r_logical', 'r_safest', 'r_shortest', 'r_safe_manual']",
+        "type": "intersection",
+        "vulnerability_score": 6.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4410809,
+          51.9602748
+        ]
+      },
+      "properties": {
+        "description": "Node used by 3 of 3 routes. (Merged cluster of 2 nearby chokepoints covering 3 routes) (Near safe route - 457m away)",
+        "factors": "['common_to_all_routes']",
+        "id": "cp_11003276648_cluster_1",
+        "routes_affected": "['r_logical', 'r_safest', 'r_shortest', 'r_safe_manual']",
+        "type": "intersection",
+        "vulnerability_score": 6.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.450509,
+          51.9658079
+        ]
+      },
+      "properties": {
+        "description": "Node used by 3 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 3 routes) (Near safe route - 467m away)",
+        "factors": "['common_to_all_routes', 'major_intersection']",
+        "id": "cp_5735349098_cluster_8",
+        "routes_affected": "['r_logical', 'r_safest', 'r_shortest', 'r_safe_manual']",
+        "type": "intersection",
+        "vulnerability_score": 8.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4524686,
+          51.9666787
+        ]
+      },
+      "properties": {
+        "description": "Node used by 3 of 3 routes. (Merged cluster of 5 nearby chokepoints covering 3 routes) (Near safe route - 406m away)",
+        "factors": "['common_to_all_routes', 'bridge_or_viaduct']",
+        "id": "cp_7072243049_cluster_9",
+        "routes_affected": "['r_logical', 'r_safest', 'r_shortest', 'r_safe_manual']",
+        "type": "intersection",
+        "vulnerability_score": 8.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4536712,
+          51.9670849
+        ]
+      },
+      "properties": {
+        "description": "Node used by 3 of 3 routes. (Merged cluster of 4 nearby chokepoints covering 3 routes) (Near safe route - 410m away)",
+        "factors": "['common_to_all_routes']",
+        "id": "cp_5390786227_cluster_10",
+        "routes_affected": "['r_logical', 'r_safest', 'r_shortest', 'r_safe_manual']",
+        "type": "intersection",
+        "vulnerability_score": 6.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.455695,
+          51.9675774
+        ]
+      },
+      "properties": {
+        "description": "Node used by 3 of 3 routes. (Merged cluster of 11 nearby chokepoints covering 3 routes) (Near safe route - 474m away)",
+        "factors": "['common_to_all_routes', 'shared_by_multiple_routes', 'major_intersection']",
+        "id": "cp_11231001237_cluster_11",
+        "routes_affected": "['r_logical', 'r_safest', 'r_shortest', 'r_safe_manual']",
+        "type": "intersection",
+        "vulnerability_score": 8.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4552309,
+          51.9687196
+        ]
+      },
+      "properties": {
+        "description": "Node used by 2 of 3 routes. (Merged cluster of 3 nearby chokepoints covering 2 routes) (Near safe route - 386m away)",
+        "factors": "['shared_by_multiple_routes', 'major_intersection']",
+        "id": "cp_8089743132_cluster_12",
+        "routes_affected": "['r_logical', 'r_shortest', 'r_safe_manual']",
+        "type": "intersection",
+        "vulnerability_score": 7.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3146882,
+          52.0820929
+        ]
+      },
+      "properties": {
+        "description": "Node used by 2 of 3 routes. (Merged cluster of 5 nearby chokepoints covering 2 routes) (Near safe route - 133m away)",
+        "factors": "['shared_by_multiple_routes', 'dense_or_complex_urban_area', 'major_intersection']",
+        "id": "cp_6519042443_cluster_23",
+        "routes_affected": "['r_safest', 'r_shortest', 'r_safe_manual']",
+        "type": "intersection",
+        "vulnerability_score": 8.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3157432,
+          52.0809327
+        ]
+      },
+      "properties": {
+        "description": "Node used by 3 of 3 routes. (Merged cluster of 5 nearby chokepoints covering 3 routes) (Near safe route - 78m away)",
+        "factors": "['common_to_all_routes', 'dense_or_complex_urban_area', 'major_intersection']",
+        "id": "cp_45159260_cluster_24",
+        "routes_affected": "['r_logical', 'r_safest', 'r_shortest', 'r_safe_manual']",
+        "type": "intersection",
+        "vulnerability_score": 9.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.45,
+          51.97
+        ]
+      },
+      "properties": {
+        "id": "cp_safe_a16_start",
+        "type": "intersection",
+        "routes_affected": "['r_safe_manual']",
+        "vulnerability_score": 7.0,
+        "factors": "['major_intersection', 'shared_by_multiple_routes']",
+        "description": "A16 motorway start junction near Rotterdam Airport - high traffic intersection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.51,
+          52.05
+        ]
+      },
+      "properties": {
+        "id": "cp_safe_n209_junction",
+        "type": "intersection",
+        "routes_affected": "['r_safe_manual']",
+        "vulnerability_score": 6.5,
+        "factors": "['major_intersection']",
+        "description": "N209 to A12 transition junction - potential bottleneck"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5,
+          52.075
+        ]
+      },
+      "properties": {
+        "id": "cp_safe_a12_approach",
+        "type": "intersection",
+        "routes_affected": "['r_safe_manual']",
+        "vulnerability_score": 8.0,
+        "factors": "['major_intersection', 'dense_or_complex_urban_area']",
+        "description": "A12 approach to The Hague - urban transition zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.44,
+          52.085
+        ]
+      },
+      "properties": {
+        "id": "cp_safe_konnningskade",
+        "type": "intersection",
+        "routes_affected": "['r_safe_manual']",
+        "vulnerability_score": 7.5,
+        "factors": "['major_intersection', 'dense_or_complex_urban_area']",
+        "description": "Konnningskade urban intersection - high pedestrian/crowd density"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.36,
+          52.085
+        ]
+      },
+      "properties": {
+        "id": "cp_safe_hubertus_viaduct",
+        "type": "intersection",
+        "routes_affected": "['r_safe_manual']",
+        "vulnerability_score": 9.0,
+        "factors": "['bridge_or_viaduct', 'major_intersection', 'dense_or_complex_urban_area']",
+        "description": "Hubertus Viaduct - elevated bridge structure with limited escape routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.33,
+          52.082
+        ]
+      },
+      "properties": {
+        "id": "cp_safe_s100_junction",
+        "type": "intersection",
+        "routes_affected": "['r_safe_manual']",
+        "vulnerability_score": 6.0,
+        "factors": "['major_intersection']",
+        "description": "S100 junction near Mauritshuis - final approach intersection"
+      }
+    }
+  ]
+}
