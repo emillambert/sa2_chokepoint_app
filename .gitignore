@@ -59,7 +59,10 @@ logs/
 *.tmp
 *.temp
 
-# Runtime cache and precomputed graphs
+# Runtime cache
 cache/
+
+# Precomputed graphs (keep essential scenario graphs for render.com)
+!precomputed/*_graph.graphml
 precomputed/
 
